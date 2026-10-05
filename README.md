@@ -1,5 +1,10 @@
 # Linear Attention Experimentation & Boundary Analysis
 
+## Saved October 5 T4 boundary and router experiments
+
+A separate, source-preserving experiment snapshot is in [experiments/t4-boundary-router-2026-10-05](experiments/t4-boundary-router-2026-10-05). Start with its [newcomer guide](experiments/t4-boundary-router-2026-10-05/docs/PROJECT_GUIDE.md), [current detailed verdict](experiments/t4-boundary-router-2026-10-05/SUMMARY.md), or [editable supervisor review deck](experiments/t4-boundary-router-2026-10-05/docs/linear_attention_supervisor_review.pptx). It includes code, raw CSVs, manifests and figures. Its measured negative Qwen/router result is preserved; its separate run cohorts must not be pooled with the existing team datasets. See [import provenance](experiments/t4-boundary-router-2026-10-05/IMPORT_PROVENANCE.md).
+
+
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![Hardware](https://img.shields.io/badge/Hardware-Tesla%20T4%20(Kaggle%2FColab)-orange.svg)](https://cloud.google.com/gpu)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaiadithya71/Linear_Attention_Experimentation/blob/main/notebooks/run_live_t4_benchmark.ipynb)

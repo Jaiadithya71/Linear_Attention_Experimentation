@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:56,  2.48it/s]Loading weights:  47%|████▋     | 137/290 [00:00<00:00, 356.93it/s]Loading weights:  75%|███████▍  | 217/290 [00:00<00:00, 427.23it/s]Loading weights:  99%|█████████▊| 286/290 [00:00<00:00, 448.90it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 368.28it/s]
+GPU: Tesla T4 | model Qwen/Qwen2.5-0.5B layers 24 heads 14 kv_heads 2
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (299078 > 131072). Running this sequence through the model will result in indexing errors
+{'variant': 'sdpa', 'N': 1024, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 153.65, 'median_ms': 141.78}
+{'variant': 'sdpa_mha', 'N': 1024, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 36.76, 'median_ms': 56.13}
+{'variant': 'local_window', 'N': 1024, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 52.91, 'median_ms': 72.88}
+{'variant': 'linear', 'N': 1024, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 55.15, 'median_ms': 77.96}
+{'variant': 'sdpa', 'N': 2048, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 565.54, 'median_ms': 448.67}
+{'variant': 'sdpa_mha', 'N': 2048, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 74.52, 'median_ms': 124.35}
+{'variant': 'local_window', 'N': 2048, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 104.94, 'median_ms': 150.43}
+{'variant': 'linear', 'N': 2048, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 110.99, 'median_ms': 160.54}
+{'variant': 'sdpa', 'N': 4096, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 2171.09, 'median_ms': 1702.31}
+{'variant': 'sdpa_mha', 'N': 4096, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 143.03, 'median_ms': 294.13}
+{'variant': 'local_window', 'N': 4096, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 209.0, 'median_ms': 324.54}
+{'variant': 'linear', 'N': 4096, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 220.42, 'median_ms': 340.04}
+{'variant': 'sdpa', 'N': 8192, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 8502.17, 'median_ms': 6707.99}
+{'variant': 'sdpa_mha', 'N': 8192, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 286.06, 'median_ms': 698.06}
+{'variant': 'local_window', 'N': 8192, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 417.13, 'median_ms': 632.09}
+{'variant': 'linear', 'N': 8192, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 440.78, 'median_ms': 651.43}
+{'variant': 'sdpa', 'N': 16384, 'status': 'oom'}
+{'variant': 'sdpa_mha', 'N': 16384, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 572.12, 'median_ms': 1945.58}
+{'variant': 'local_window', 'N': 16384, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 833.38, 'median_ms': 1269.61}
+{'variant': 'linear', 'N': 16384, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 881.5, 'median_ms': 1328.61}
+{'variant': 'sdpa', 'N': 32768, 'status': 'oom'}
+{'variant': 'sdpa_mha', 'N': 32768, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 1144.25, 'median_ms': 6266.72}
+{'variant': 'local_window', 'N': 32768, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 1665.88, 'median_ms': 2554.81}
+{'variant': 'linear', 'N': 32768, 'finite_output': True, 'status': 'ok', 'peak_extra_mb': 1762.94, 'median_ms': 2712.62}
+{'variant': 'sdpa', 'ctx': 2048, 'windows': 16, 'tokens_scored': 32752, 'nll_per_token': 2.537630074654315, 'perplexity': 12.64965667709094, 'nonfinite_windows': 0}
+{'variant': 'sdpa_mha', 'ctx': 2048, 'windows': 16, 'tokens_scored': 32752, 'nll_per_token': 2.537647688977009, 'perplexity': 12.649879494188001, 'nonfinite_windows': 0}
+{'variant': 'local_window', 'ctx': 2048, 'windows': 16, 'tokens_scored': 32752, 'nll_per_token': 4.117087702897915, 'perplexity': 61.3802242649039, 'nonfinite_windows': 0}
+{'variant': 'linear', 'ctx': 2048, 'windows': 16, 'tokens_scored': 32752, 'nll_per_token': 8.41912883540509, 'perplexity': 4532.952786622279, 'nonfinite_windows': 0}
