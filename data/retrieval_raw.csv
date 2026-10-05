@@ -1,961 +1,961 @@
 mode,N,task,method,acc
 global target,64,0,softmax (naive),1.0
-global target,64,0,linear (ReLU+1),0.57447
-global target,64,0,sparse (local w=64),1.0
 global target,64,0,flash/SDPA (exact),1.0
+global target,64,0,sparse (local w=64),1.0
+global target,64,0,linear (ReLU+1),0.4219
 global target,64,1,softmax (naive),1.0
-global target,64,1,linear (ReLU+1),0.59177
-global target,64,1,sparse (local w=64),1.0
 global target,64,1,flash/SDPA (exact),1.0
+global target,64,1,sparse (local w=64),1.0
+global target,64,1,linear (ReLU+1),0.4844
 global target,64,2,softmax (naive),1.0
-global target,64,2,linear (ReLU+1),0.58527
-global target,64,2,sparse (local w=64),1.0
 global target,64,2,flash/SDPA (exact),1.0
+global target,64,2,sparse (local w=64),1.0
+global target,64,2,linear (ReLU+1),0.3125
 global target,64,3,softmax (naive),1.0
-global target,64,3,linear (ReLU+1),0.58127
-global target,64,3,sparse (local w=64),1.0
 global target,64,3,flash/SDPA (exact),1.0
+global target,64,3,sparse (local w=64),1.0
+global target,64,3,linear (ReLU+1),0.5469
 global target,64,4,softmax (naive),1.0
-global target,64,4,linear (ReLU+1),0.56797
-global target,64,4,sparse (local w=64),1.0
 global target,64,4,flash/SDPA (exact),1.0
+global target,64,4,sparse (local w=64),1.0
+global target,64,4,linear (ReLU+1),0.4062
 global target,64,5,softmax (naive),1.0
-global target,64,5,linear (ReLU+1),0.56797
-global target,64,5,sparse (local w=64),1.0
 global target,64,5,flash/SDPA (exact),1.0
+global target,64,5,sparse (local w=64),1.0
+global target,64,5,linear (ReLU+1),0.1719
 global target,64,6,softmax (naive),1.0
-global target,64,6,linear (ReLU+1),0.56497
-global target,64,6,sparse (local w=64),1.0
 global target,64,6,flash/SDPA (exact),1.0
+global target,64,6,sparse (local w=64),1.0
+global target,64,6,linear (ReLU+1),0.375
 global target,64,7,softmax (naive),1.0
-global target,64,7,linear (ReLU+1),0.58927
-global target,64,7,sparse (local w=64),1.0
 global target,64,7,flash/SDPA (exact),1.0
+global target,64,7,sparse (local w=64),1.0
+global target,64,7,linear (ReLU+1),0.4844
 global target,64,8,softmax (naive),1.0
-global target,64,8,linear (ReLU+1),0.58127
-global target,64,8,sparse (local w=64),1.0
 global target,64,8,flash/SDPA (exact),1.0
+global target,64,8,sparse (local w=64),1.0
+global target,64,8,linear (ReLU+1),0.5938
 global target,64,9,softmax (naive),1.0
-global target,64,9,linear (ReLU+1),0.58447
-global target,64,9,sparse (local w=64),1.0
 global target,64,9,flash/SDPA (exact),1.0
+global target,64,9,sparse (local w=64),1.0
+global target,64,9,linear (ReLU+1),0.25
 global target,64,10,softmax (naive),1.0
-global target,64,10,linear (ReLU+1),0.56387
-global target,64,10,sparse (local w=64),1.0
 global target,64,10,flash/SDPA (exact),1.0
+global target,64,10,sparse (local w=64),1.0
+global target,64,10,linear (ReLU+1),0.6562
 global target,64,11,softmax (naive),1.0
-global target,64,11,linear (ReLU+1),0.59237
-global target,64,11,sparse (local w=64),1.0
 global target,64,11,flash/SDPA (exact),1.0
+global target,64,11,sparse (local w=64),1.0
+global target,64,11,linear (ReLU+1),0.4844
 global target,64,12,softmax (naive),1.0
-global target,64,12,linear (ReLU+1),0.58827
-global target,64,12,sparse (local w=64),1.0
 global target,64,12,flash/SDPA (exact),1.0
+global target,64,12,sparse (local w=64),1.0
+global target,64,12,linear (ReLU+1),0.5
 global target,64,13,softmax (naive),1.0
-global target,64,13,linear (ReLU+1),0.56967
-global target,64,13,sparse (local w=64),1.0
 global target,64,13,flash/SDPA (exact),1.0
+global target,64,13,sparse (local w=64),1.0
+global target,64,13,linear (ReLU+1),0.2969
 global target,64,14,softmax (naive),1.0
-global target,64,14,linear (ReLU+1),0.56877
-global target,64,14,sparse (local w=64),1.0
 global target,64,14,flash/SDPA (exact),1.0
+global target,64,14,sparse (local w=64),1.0
+global target,64,14,linear (ReLU+1),0.3125
 global target,64,15,softmax (naive),1.0
-global target,64,15,linear (ReLU+1),0.56877
-global target,64,15,sparse (local w=64),1.0
 global target,64,15,flash/SDPA (exact),1.0
+global target,64,15,sparse (local w=64),1.0
+global target,64,15,linear (ReLU+1),0.5625
 global target,64,16,softmax (naive),1.0
-global target,64,16,linear (ReLU+1),0.57237
-global target,64,16,sparse (local w=64),1.0
 global target,64,16,flash/SDPA (exact),1.0
+global target,64,16,sparse (local w=64),1.0
+global target,64,16,linear (ReLU+1),0.375
 global target,64,17,softmax (naive),1.0
-global target,64,17,linear (ReLU+1),0.57897
-global target,64,17,sparse (local w=64),1.0
 global target,64,17,flash/SDPA (exact),1.0
+global target,64,17,sparse (local w=64),1.0
+global target,64,17,linear (ReLU+1),0.5312
 global target,64,18,softmax (naive),1.0
-global target,64,18,linear (ReLU+1),0.57627
-global target,64,18,sparse (local w=64),1.0
 global target,64,18,flash/SDPA (exact),1.0
+global target,64,18,sparse (local w=64),1.0
+global target,64,18,linear (ReLU+1),0.4219
 global target,64,19,softmax (naive),1.0
-global target,64,19,linear (ReLU+1),0.57197
-global target,64,19,sparse (local w=64),1.0
 global target,64,19,flash/SDPA (exact),1.0
+global target,64,19,sparse (local w=64),1.0
+global target,64,19,linear (ReLU+1),0.4062
 global target,256,0,softmax (naive),1.0
-global target,256,0,linear (ReLU+1),0.27734500000000006
-global target,256,0,sparse (local w=64),0.631885
 global target,256,0,flash/SDPA (exact),1.0
+global target,256,0,sparse (local w=64),0.6133
+global target,256,0,linear (ReLU+1),0.2148
 global target,256,1,softmax (naive),1.0
-global target,256,1,linear (ReLU+1),0.26774500000000007
-global target,256,1,sparse (local w=64),0.6386850000000001
 global target,256,1,flash/SDPA (exact),1.0
+global target,256,1,sparse (local w=64),0.6484
+global target,256,1,linear (ReLU+1),0.2656
 global target,256,2,softmax (naive),1.0
-global target,256,2,linear (ReLU+1),0.2726450000000001
-global target,256,2,sparse (local w=64),0.651285
 global target,256,2,flash/SDPA (exact),1.0
+global target,256,2,sparse (local w=64),0.6289
+global target,256,2,linear (ReLU+1),0.1797
 global target,256,3,softmax (naive),1.0
-global target,256,3,linear (ReLU+1),0.2649450000000001
-global target,256,3,sparse (local w=64),0.643085
 global target,256,3,flash/SDPA (exact),1.0
+global target,256,3,sparse (local w=64),0.6562
+global target,256,3,linear (ReLU+1),0.2695
 global target,256,4,softmax (naive),1.0
-global target,256,4,linear (ReLU+1),0.2767450000000001
-global target,256,4,sparse (local w=64),0.629085
 global target,256,4,flash/SDPA (exact),1.0
+global target,256,4,sparse (local w=64),0.6875
+global target,256,4,linear (ReLU+1),0.2266
 global target,256,5,softmax (naive),1.0
-global target,256,5,linear (ReLU+1),0.2771450000000001
-global target,256,5,sparse (local w=64),0.632785
 global target,256,5,flash/SDPA (exact),1.0
+global target,256,5,sparse (local w=64),0.6289
+global target,256,5,linear (ReLU+1),0.1797
 global target,256,6,softmax (naive),1.0
-global target,256,6,linear (ReLU+1),0.2609450000000001
-global target,256,6,sparse (local w=64),0.656185
 global target,256,6,flash/SDPA (exact),1.0
+global target,256,6,sparse (local w=64),0.6211
+global target,256,6,linear (ReLU+1),0.1016
 global target,256,7,softmax (naive),1.0
-global target,256,7,linear (ReLU+1),0.28794500000000006
-global target,256,7,sparse (local w=64),0.651985
 global target,256,7,flash/SDPA (exact),1.0
+global target,256,7,sparse (local w=64),0.6133
+global target,256,7,linear (ReLU+1),0.1562
 global target,256,8,softmax (naive),1.0
-global target,256,8,linear (ReLU+1),0.2680450000000001
-global target,256,8,sparse (local w=64),0.6305850000000001
 global target,256,8,flash/SDPA (exact),1.0
+global target,256,8,sparse (local w=64),0.6367
+global target,256,8,linear (ReLU+1),0.1914
 global target,256,9,softmax (naive),1.0
-global target,256,9,linear (ReLU+1),0.2794450000000001
-global target,256,9,sparse (local w=64),0.640885
 global target,256,9,flash/SDPA (exact),1.0
+global target,256,9,sparse (local w=64),0.6602
+global target,256,9,linear (ReLU+1),0.2461
 global target,256,10,softmax (naive),1.0
-global target,256,10,linear (ReLU+1),0.2626450000000001
-global target,256,10,sparse (local w=64),0.6425850000000001
 global target,256,10,flash/SDPA (exact),1.0
+global target,256,10,sparse (local w=64),0.625
+global target,256,10,linear (ReLU+1),0.1484
 global target,256,11,softmax (naive),1.0
-global target,256,11,linear (ReLU+1),0.2599450000000001
-global target,256,11,sparse (local w=64),0.654985
 global target,256,11,flash/SDPA (exact),1.0
+global target,256,11,sparse (local w=64),0.6406
+global target,256,11,linear (ReLU+1),0.3008
 global target,256,12,softmax (naive),1.0
-global target,256,12,linear (ReLU+1),0.26674500000000007
-global target,256,12,sparse (local w=64),0.6475850000000001
 global target,256,12,flash/SDPA (exact),1.0
+global target,256,12,sparse (local w=64),0.625
+global target,256,12,linear (ReLU+1),0.2969
 global target,256,13,softmax (naive),1.0
-global target,256,13,linear (ReLU+1),0.2683450000000001
-global target,256,13,sparse (local w=64),0.643285
 global target,256,13,flash/SDPA (exact),1.0
+global target,256,13,sparse (local w=64),0.6992
+global target,256,13,linear (ReLU+1),0.1797
 global target,256,14,softmax (naive),1.0
-global target,256,14,linear (ReLU+1),0.27534500000000006
-global target,256,14,sparse (local w=64),0.633185
 global target,256,14,flash/SDPA (exact),1.0
+global target,256,14,sparse (local w=64),0.6367
+global target,256,14,linear (ReLU+1),0.1992
 global target,256,15,softmax (naive),1.0
-global target,256,15,linear (ReLU+1),0.2880450000000001
-global target,256,15,sparse (local w=64),0.650985
 global target,256,15,flash/SDPA (exact),1.0
+global target,256,15,sparse (local w=64),0.668
+global target,256,15,linear (ReLU+1),0.3281
 global target,256,16,softmax (naive),1.0
-global target,256,16,linear (ReLU+1),0.2871450000000001
-global target,256,16,sparse (local w=64),0.6544850000000001
 global target,256,16,flash/SDPA (exact),1.0
+global target,256,16,sparse (local w=64),0.6211
+global target,256,16,linear (ReLU+1),0.1836
 global target,256,17,softmax (naive),1.0
-global target,256,17,linear (ReLU+1),0.27684500000000006
-global target,256,17,sparse (local w=64),0.655385
 global target,256,17,flash/SDPA (exact),1.0
+global target,256,17,sparse (local w=64),0.6641
+global target,256,17,linear (ReLU+1),0.2461
 global target,256,18,softmax (naive),1.0
-global target,256,18,linear (ReLU+1),0.26164500000000007
-global target,256,18,sparse (local w=64),0.6335850000000001
 global target,256,18,flash/SDPA (exact),1.0
+global target,256,18,sparse (local w=64),0.6172
+global target,256,18,linear (ReLU+1),0.2695
 global target,256,19,softmax (naive),1.0
-global target,256,19,linear (ReLU+1),0.2603450000000001
-global target,256,19,sparse (local w=64),0.6374850000000001
 global target,256,19,flash/SDPA (exact),1.0
+global target,256,19,sparse (local w=64),0.625
+global target,256,19,linear (ReLU+1),0.2812
 global target,512,0,softmax (naive),1.0
-global target,512,0,linear (ReLU+1),0.171225
-global target,512,0,sparse (local w=64),0.38612
 global target,512,0,flash/SDPA (exact),1.0
+global target,512,0,sparse (local w=64),0.3828
+global target,512,0,linear (ReLU+1),0.0977
 global target,512,1,softmax (naive),1.0
-global target,512,1,linear (ReLU+1),0.184425
-global target,512,1,sparse (local w=64),0.38872
 global target,512,1,flash/SDPA (exact),1.0
+global target,512,1,sparse (local w=64),0.3887
+global target,512,1,linear (ReLU+1),0.1758
 global target,512,2,softmax (naive),1.0
-global target,512,2,linear (ReLU+1),0.167925
-global target,512,2,sparse (local w=64),0.39432
 global target,512,2,flash/SDPA (exact),1.0
+global target,512,2,sparse (local w=64),0.4062
+global target,512,2,linear (ReLU+1),0.1758
 global target,512,3,softmax (naive),1.0
-global target,512,3,linear (ReLU+1),0.163725
-global target,512,3,sparse (local w=64),0.40212000000000003
 global target,512,3,flash/SDPA (exact),1.0
+global target,512,3,sparse (local w=64),0.3789
+global target,512,3,linear (ReLU+1),0.1113
 global target,512,4,softmax (naive),1.0
-global target,512,4,linear (ReLU+1),0.161725
-global target,512,4,sparse (local w=64),0.40762000000000004
 global target,512,4,flash/SDPA (exact),1.0
+global target,512,4,sparse (local w=64),0.3848
+global target,512,4,linear (ReLU+1),0.1152
 global target,512,5,softmax (naive),1.0
-global target,512,5,linear (ReLU+1),0.182725
-global target,512,5,sparse (local w=64),0.38402000000000003
 global target,512,5,flash/SDPA (exact),1.0
+global target,512,5,sparse (local w=64),0.3555
+global target,512,5,linear (ReLU+1),0.1641
 global target,512,6,softmax (naive),1.0
-global target,512,6,linear (ReLU+1),0.159725
-global target,512,6,sparse (local w=64),0.40252000000000004
 global target,512,6,flash/SDPA (exact),1.0
+global target,512,6,sparse (local w=64),0.4219
+global target,512,6,linear (ReLU+1),0.1191
 global target,512,7,softmax (naive),1.0
-global target,512,7,linear (ReLU+1),0.180725
-global target,512,7,sparse (local w=64),0.39992
 global target,512,7,flash/SDPA (exact),1.0
+global target,512,7,sparse (local w=64),0.3906
+global target,512,7,linear (ReLU+1),0.1738
 global target,512,8,softmax (naive),1.0
-global target,512,8,linear (ReLU+1),0.182625
-global target,512,8,sparse (local w=64),0.38022
 global target,512,8,flash/SDPA (exact),1.0
+global target,512,8,sparse (local w=64),0.377
+global target,512,8,linear (ReLU+1),0.1426
 global target,512,9,softmax (naive),1.0
-global target,512,9,linear (ReLU+1),0.170325
-global target,512,9,sparse (local w=64),0.38152
 global target,512,9,flash/SDPA (exact),1.0
+global target,512,9,sparse (local w=64),0.3867
+global target,512,9,linear (ReLU+1),0.1406
 global target,512,10,softmax (naive),1.0
-global target,512,10,linear (ReLU+1),0.185425
-global target,512,10,sparse (local w=64),0.39672
 global target,512,10,flash/SDPA (exact),1.0
+global target,512,10,sparse (local w=64),0.4004
+global target,512,10,linear (ReLU+1),0.1777
 global target,512,11,softmax (naive),1.0
-global target,512,11,linear (ReLU+1),0.169425
-global target,512,11,sparse (local w=64),0.37992000000000004
 global target,512,11,flash/SDPA (exact),1.0
+global target,512,11,sparse (local w=64),0.4062
+global target,512,11,linear (ReLU+1),0.1582
 global target,512,12,softmax (naive),1.0
-global target,512,12,linear (ReLU+1),0.168825
-global target,512,12,sparse (local w=64),0.38782
 global target,512,12,flash/SDPA (exact),1.0
+global target,512,12,sparse (local w=64),0.3652
+global target,512,12,linear (ReLU+1),0.1289
 global target,512,13,softmax (naive),1.0
-global target,512,13,linear (ReLU+1),0.181425
-global target,512,13,sparse (local w=64),0.39712000000000003
 global target,512,13,flash/SDPA (exact),1.0
+global target,512,13,sparse (local w=64),0.3613
+global target,512,13,linear (ReLU+1),0.1113
 global target,512,14,softmax (naive),1.0
-global target,512,14,linear (ReLU+1),0.18612499999999998
-global target,512,14,sparse (local w=64),0.39222
 global target,512,14,flash/SDPA (exact),1.0
+global target,512,14,sparse (local w=64),0.3809
+global target,512,14,linear (ReLU+1),0.1445
 global target,512,15,softmax (naive),1.0
-global target,512,15,linear (ReLU+1),0.163125
-global target,512,15,sparse (local w=64),0.39942
 global target,512,15,flash/SDPA (exact),1.0
+global target,512,15,sparse (local w=64),0.4258
+global target,512,15,linear (ReLU+1),0.1758
 global target,512,16,softmax (naive),1.0
-global target,512,16,linear (ReLU+1),0.182325
-global target,512,16,sparse (local w=64),0.39482
 global target,512,16,flash/SDPA (exact),1.0
+global target,512,16,sparse (local w=64),0.3555
+global target,512,16,linear (ReLU+1),0.1602
 global target,512,17,softmax (naive),1.0
-global target,512,17,linear (ReLU+1),0.182625
-global target,512,17,sparse (local w=64),0.39282
 global target,512,17,flash/SDPA (exact),1.0
+global target,512,17,sparse (local w=64),0.4141
+global target,512,17,linear (ReLU+1),0.1621
 global target,512,18,softmax (naive),1.0
-global target,512,18,linear (ReLU+1),0.175225
-global target,512,18,sparse (local w=64),0.39082
 global target,512,18,flash/SDPA (exact),1.0
+global target,512,18,sparse (local w=64),0.4316
+global target,512,18,linear (ReLU+1),0.1562
 global target,512,19,softmax (naive),1.0
-global target,512,19,linear (ReLU+1),0.160325
-global target,512,19,sparse (local w=64),0.38122
 global target,512,19,flash/SDPA (exact),1.0
+global target,512,19,sparse (local w=64),0.3945
+global target,512,19,linear (ReLU+1),0.1797
 global target,1024,0,softmax (naive),1.0
-global target,1024,0,linear (ReLU+1),0.12793500000000002
-global target,1024,0,sparse (local w=64),0.240865
 global target,1024,0,flash/SDPA (exact),1.0
+global target,1024,0,sparse (local w=64),0.2275
+global target,1024,0,linear (ReLU+1),0.1641
 global target,1024,1,softmax (naive),1.0
-global target,1024,1,linear (ReLU+1),0.136435
-global target,1024,1,sparse (local w=64),0.237065
 global target,1024,1,flash/SDPA (exact),1.0
+global target,1024,1,sparse (local w=64),0.2295
+global target,1024,1,linear (ReLU+1),0.1348
 global target,1024,2,softmax (naive),1.0
-global target,1024,2,linear (ReLU+1),0.154235
-global target,1024,2,sparse (local w=64),0.229265
 global target,1024,2,flash/SDPA (exact),1.0
+global target,1024,2,sparse (local w=64),0.2373
+global target,1024,2,linear (ReLU+1),0.1504
 global target,1024,3,softmax (naive),1.0
-global target,1024,3,linear (ReLU+1),0.13933500000000001
-global target,1024,3,sparse (local w=64),0.244465
 global target,1024,3,flash/SDPA (exact),1.0
+global target,1024,3,sparse (local w=64),0.2246
+global target,1024,3,linear (ReLU+1),0.1572
 global target,1024,4,softmax (naive),1.0
-global target,1024,4,linear (ReLU+1),0.133935
-global target,1024,4,sparse (local w=64),0.224065
 global target,1024,4,flash/SDPA (exact),1.0
+global target,1024,4,sparse (local w=64),0.2363
+global target,1024,4,linear (ReLU+1),0.0654
 global target,1024,5,softmax (naive),1.0
-global target,1024,5,linear (ReLU+1),0.135735
-global target,1024,5,sparse (local w=64),0.226565
 global target,1024,5,flash/SDPA (exact),1.0
+global target,1024,5,sparse (local w=64),0.2227
+global target,1024,5,linear (ReLU+1),0.1143
 global target,1024,6,softmax (naive),1.0
-global target,1024,6,linear (ReLU+1),0.15493500000000002
-global target,1024,6,sparse (local w=64),0.245965
 global target,1024,6,flash/SDPA (exact),1.0
+global target,1024,6,sparse (local w=64),0.208
+global target,1024,6,linear (ReLU+1),0.1426
 global target,1024,7,softmax (naive),1.0
-global target,1024,7,linear (ReLU+1),0.146035
-global target,1024,7,sparse (local w=64),0.24786499999999997
 global target,1024,7,flash/SDPA (exact),1.0
+global target,1024,7,sparse (local w=64),0.2539
+global target,1024,7,linear (ReLU+1),0.1572
 global target,1024,8,softmax (naive),1.0
-global target,1024,8,linear (ReLU+1),0.15113500000000002
-global target,1024,8,sparse (local w=64),0.22736499999999998
 global target,1024,8,flash/SDPA (exact),1.0
+global target,1024,8,sparse (local w=64),0.2402
+global target,1024,8,linear (ReLU+1),0.1592
 global target,1024,9,softmax (naive),1.0
-global target,1024,9,linear (ReLU+1),0.153835
-global target,1024,9,sparse (local w=64),0.23796499999999998
 global target,1024,9,flash/SDPA (exact),1.0
+global target,1024,9,sparse (local w=64),0.2305
+global target,1024,9,linear (ReLU+1),0.1387
 global target,1024,10,softmax (naive),1.0
-global target,1024,10,linear (ReLU+1),0.151235
-global target,1024,10,sparse (local w=64),0.248665
 global target,1024,10,flash/SDPA (exact),1.0
+global target,1024,10,sparse (local w=64),0.2314
+global target,1024,10,linear (ReLU+1),0.125
 global target,1024,11,softmax (naive),1.0
-global target,1024,11,linear (ReLU+1),0.13653500000000002
-global target,1024,11,sparse (local w=64),0.225065
 global target,1024,11,flash/SDPA (exact),1.0
+global target,1024,11,sparse (local w=64),0.2275
+global target,1024,11,linear (ReLU+1),0.1025
 global target,1024,12,softmax (naive),1.0
-global target,1024,12,linear (ReLU+1),0.133835
-global target,1024,12,sparse (local w=64),0.234565
 global target,1024,12,flash/SDPA (exact),1.0
+global target,1024,12,sparse (local w=64),0.2305
+global target,1024,12,linear (ReLU+1),0.1299
 global target,1024,13,softmax (naive),1.0
-global target,1024,13,linear (ReLU+1),0.151535
-global target,1024,13,sparse (local w=64),0.24756499999999998
 global target,1024,13,flash/SDPA (exact),1.0
+global target,1024,13,sparse (local w=64),0.2041
+global target,1024,13,linear (ReLU+1),0.1035
 global target,1024,14,softmax (naive),1.0
-global target,1024,14,linear (ReLU+1),0.12723500000000001
-global target,1024,14,sparse (local w=64),0.237065
 global target,1024,14,flash/SDPA (exact),1.0
+global target,1024,14,sparse (local w=64),0.2627
+global target,1024,14,linear (ReLU+1),0.1094
 global target,1024,15,softmax (naive),1.0
-global target,1024,15,linear (ReLU+1),0.13953500000000002
-global target,1024,15,sparse (local w=64),0.22846499999999997
 global target,1024,15,flash/SDPA (exact),1.0
+global target,1024,15,sparse (local w=64),0.2656
+global target,1024,15,linear (ReLU+1),0.126
 global target,1024,16,softmax (naive),1.0
-global target,1024,16,linear (ReLU+1),0.130635
-global target,1024,16,sparse (local w=64),0.231865
 global target,1024,16,flash/SDPA (exact),1.0
+global target,1024,16,sparse (local w=64),0.2441
+global target,1024,16,linear (ReLU+1),0.0889
 global target,1024,17,softmax (naive),1.0
-global target,1024,17,linear (ReLU+1),0.155335
-global target,1024,17,sparse (local w=64),0.23146499999999998
 global target,1024,17,flash/SDPA (exact),1.0
+global target,1024,17,sparse (local w=64),0.2656
+global target,1024,17,linear (ReLU+1),0.124
 global target,1024,18,softmax (naive),1.0
-global target,1024,18,linear (ReLU+1),0.142635
-global target,1024,18,sparse (local w=64),0.242865
 global target,1024,18,flash/SDPA (exact),1.0
+global target,1024,18,sparse (local w=64),0.2441
+global target,1024,18,linear (ReLU+1),0.0771
 global target,1024,19,softmax (naive),1.0
-global target,1024,19,linear (ReLU+1),0.137935
-global target,1024,19,sparse (local w=64),0.250965
 global target,1024,19,flash/SDPA (exact),1.0
+global target,1024,19,sparse (local w=64),0.2217
+global target,1024,19,linear (ReLU+1),0.1006
 global target,2048,0,softmax (naive),1.0
-global target,2048,0,linear (ReLU+1),0.12950499999999998
-global target,2048,0,sparse (local w=64),0.147265
 global target,2048,0,flash/SDPA (exact),1.0
+global target,2048,0,sparse (local w=64),0.1416
+global target,2048,0,linear (ReLU+1),0.0908
 global target,2048,1,softmax (naive),1.0
-global target,2048,1,linear (ReLU+1),0.11550499999999998
-global target,2048,1,sparse (local w=64),0.148665
 global target,2048,1,flash/SDPA (exact),1.0
+global target,2048,1,sparse (local w=64),0.1401
+global target,2048,1,linear (ReLU+1),0.0938
 global target,2048,2,softmax (naive),1.0
-global target,2048,2,linear (ReLU+1),0.10910499999999998
-global target,2048,2,sparse (local w=64),0.140765
 global target,2048,2,flash/SDPA (exact),1.0
+global target,2048,2,sparse (local w=64),0.1494
+global target,2048,2,linear (ReLU+1),0.1255
 global target,2048,3,softmax (naive),1.0
-global target,2048,3,linear (ReLU+1),0.11890499999999998
-global target,2048,3,sparse (local w=64),0.154765
 global target,2048,3,flash/SDPA (exact),1.0
+global target,2048,3,sparse (local w=64),0.1523
+global target,2048,3,linear (ReLU+1),0.1279
 global target,2048,4,softmax (naive),1.0
-global target,2048,4,linear (ReLU+1),0.10210499999999997
-global target,2048,4,sparse (local w=64),0.148065
 global target,2048,4,flash/SDPA (exact),1.0
+global target,2048,4,sparse (local w=64),0.1416
+global target,2048,4,linear (ReLU+1),0.1006
 global target,2048,5,softmax (naive),1.0
-global target,2048,5,linear (ReLU+1),0.127805
-global target,2048,5,sparse (local w=64),0.146865
 global target,2048,5,flash/SDPA (exact),1.0
+global target,2048,5,sparse (local w=64),0.1484
+global target,2048,5,linear (ReLU+1),0.1006
 global target,2048,6,softmax (naive),1.0
-global target,2048,6,linear (ReLU+1),0.10490499999999998
-global target,2048,6,sparse (local w=64),0.154365
 global target,2048,6,flash/SDPA (exact),1.0
+global target,2048,6,sparse (local w=64),0.1421
+global target,2048,6,linear (ReLU+1),0.0967
 global target,2048,7,softmax (naive),1.0
-global target,2048,7,linear (ReLU+1),0.13020499999999996
-global target,2048,7,sparse (local w=64),0.146965
 global target,2048,7,flash/SDPA (exact),1.0
+global target,2048,7,sparse (local w=64),0.1475
+global target,2048,7,linear (ReLU+1),0.1001
 global target,2048,8,softmax (naive),1.0
-global target,2048,8,linear (ReLU+1),0.12080499999999998
-global target,2048,8,sparse (local w=64),0.162465
 global target,2048,8,flash/SDPA (exact),1.0
+global target,2048,8,sparse (local w=64),0.1528
+global target,2048,8,linear (ReLU+1),0.0791
 global target,2048,9,softmax (naive),1.0
-global target,2048,9,linear (ReLU+1),0.10770499999999998
-global target,2048,9,sparse (local w=64),0.161465
 global target,2048,9,flash/SDPA (exact),1.0
+global target,2048,9,sparse (local w=64),0.1401
+global target,2048,9,linear (ReLU+1),0.127
 global target,2048,10,softmax (naive),1.0
-global target,2048,10,linear (ReLU+1),0.11160499999999998
-global target,2048,10,sparse (local w=64),0.158665
 global target,2048,10,flash/SDPA (exact),1.0
+global target,2048,10,sparse (local w=64),0.1572
+global target,2048,10,linear (ReLU+1),0.1201
 global target,2048,11,softmax (naive),1.0
-global target,2048,11,linear (ReLU+1),0.11960499999999998
-global target,2048,11,sparse (local w=64),0.15576500000000001
 global target,2048,11,flash/SDPA (exact),1.0
+global target,2048,11,sparse (local w=64),0.1411
+global target,2048,11,linear (ReLU+1),0.1333
 global target,2048,12,softmax (naive),1.0
-global target,2048,12,linear (ReLU+1),0.10330499999999998
-global target,2048,12,sparse (local w=64),0.164765
 global target,2048,12,flash/SDPA (exact),1.0
+global target,2048,12,sparse (local w=64),0.1431
+global target,2048,12,linear (ReLU+1),0.1147
 global target,2048,13,softmax (naive),1.0
-global target,2048,13,linear (ReLU+1),0.11020499999999998
-global target,2048,13,sparse (local w=64),0.145265
 global target,2048,13,flash/SDPA (exact),1.0
+global target,2048,13,sparse (local w=64),0.1519
+global target,2048,13,linear (ReLU+1),0.1113
 global target,2048,14,softmax (naive),1.0
-global target,2048,14,linear (ReLU+1),0.10180499999999998
-global target,2048,14,sparse (local w=64),0.157365
 global target,2048,14,flash/SDPA (exact),1.0
+global target,2048,14,sparse (local w=64),0.1504
+global target,2048,14,linear (ReLU+1),0.0898
 global target,2048,15,softmax (naive),1.0
-global target,2048,15,linear (ReLU+1),0.12090499999999998
-global target,2048,15,sparse (local w=64),0.140165
 global target,2048,15,flash/SDPA (exact),1.0
+global target,2048,15,sparse (local w=64),0.1406
+global target,2048,15,linear (ReLU+1),0.126
 global target,2048,16,softmax (naive),1.0
-global target,2048,16,linear (ReLU+1),0.11600499999999998
-global target,2048,16,sparse (local w=64),0.146465
 global target,2048,16,flash/SDPA (exact),1.0
+global target,2048,16,sparse (local w=64),0.1504
+global target,2048,16,linear (ReLU+1),0.1377
 global target,2048,17,softmax (naive),1.0
-global target,2048,17,linear (ReLU+1),0.12000499999999997
-global target,2048,17,sparse (local w=64),0.144865
 global target,2048,17,flash/SDPA (exact),1.0
+global target,2048,17,sparse (local w=64),0.1504
+global target,2048,17,linear (ReLU+1),0.0962
 global target,2048,18,softmax (naive),1.0
-global target,2048,18,linear (ReLU+1),0.12130499999999998
-global target,2048,18,sparse (local w=64),0.151265
 global target,2048,18,flash/SDPA (exact),1.0
+global target,2048,18,sparse (local w=64),0.1553
+global target,2048,18,linear (ReLU+1),0.0947
 global target,2048,19,softmax (naive),1.0
-global target,2048,19,linear (ReLU+1),0.12870499999999996
-global target,2048,19,sparse (local w=64),0.143765
 global target,2048,19,flash/SDPA (exact),1.0
+global target,2048,19,sparse (local w=64),0.1523
+global target,2048,19,linear (ReLU+1),0.0723
 global target,4096,0,softmax (naive),1.0
-global target,4096,0,linear (ReLU+1),0.08986500000000001
-global target,4096,0,sparse (local w=64),0.09454
 global target,4096,0,flash/SDPA (exact),1.0
+global target,4096,0,sparse (local w=64),0.1074
+global target,4096,0,linear (ReLU+1),0.0801
 global target,4096,1,softmax (naive),1.0
-global target,4096,1,linear (ReLU+1),0.10736500000000002
-global target,4096,1,sparse (local w=64),0.11744
 global target,4096,1,flash/SDPA (exact),1.0
+global target,4096,1,sparse (local w=64),0.1101
+global target,4096,1,linear (ReLU+1),0.0979
 global target,4096,2,softmax (naive),1.0
-global target,4096,2,linear (ReLU+1),0.08736500000000001
-global target,4096,2,sparse (local w=64),0.11094
 global target,4096,2,flash/SDPA (exact),1.0
+global target,4096,2,sparse (local w=64),0.1101
+global target,4096,2,linear (ReLU+1),0.1138
 global target,4096,3,softmax (naive),1.0
-global target,4096,3,linear (ReLU+1),0.10416500000000001
-global target,4096,3,sparse (local w=64),0.10784
 global target,4096,3,flash/SDPA (exact),1.0
+global target,4096,3,sparse (local w=64),0.1082
+global target,4096,3,linear (ReLU+1),0.0896
 global target,4096,4,softmax (naive),1.0
-global target,4096,4,linear (ReLU+1),0.09556500000000001
-global target,4096,4,sparse (local w=64),0.09844
 global target,4096,4,flash/SDPA (exact),1.0
+global target,4096,4,sparse (local w=64),0.1047
+global target,4096,4,linear (ReLU+1),0.0701
 global target,4096,5,softmax (naive),1.0
-global target,4096,5,linear (ReLU+1),0.08246500000000001
-global target,4096,5,sparse (local w=64),0.11804
 global target,4096,5,flash/SDPA (exact),1.0
+global target,4096,5,sparse (local w=64),0.1064
+global target,4096,5,linear (ReLU+1),0.0771
 global target,4096,6,softmax (naive),1.0
-global target,4096,6,linear (ReLU+1),0.10666500000000001
-global target,4096,6,sparse (local w=64),0.11014
 global target,4096,6,flash/SDPA (exact),1.0
+global target,4096,6,sparse (local w=64),0.1089
+global target,4096,6,linear (ReLU+1),0.0825
 global target,4096,7,softmax (naive),1.0
-global target,4096,7,linear (ReLU+1),0.08986500000000001
-global target,4096,7,sparse (local w=64),0.10164
 global target,4096,7,flash/SDPA (exact),1.0
+global target,4096,7,sparse (local w=64),0.103
+global target,4096,7,linear (ReLU+1),0.0784
 global target,4096,8,softmax (naive),1.0
-global target,4096,8,linear (ReLU+1),0.10146500000000001
-global target,4096,8,sparse (local w=64),0.11804
 global target,4096,8,flash/SDPA (exact),1.0
+global target,4096,8,sparse (local w=64),0.0996
+global target,4096,8,linear (ReLU+1),0.0801
 global target,4096,9,softmax (naive),1.0
-global target,4096,9,linear (ReLU+1),0.10626500000000001
-global target,4096,9,sparse (local w=64),0.11454
 global target,4096,9,flash/SDPA (exact),1.0
+global target,4096,9,sparse (local w=64),0.1025
+global target,4096,9,linear (ReLU+1),0.073
 global target,4096,10,softmax (naive),1.0
-global target,4096,10,linear (ReLU+1),0.09896500000000001
-global target,4096,10,sparse (local w=64),0.09364
 global target,4096,10,flash/SDPA (exact),1.0
+global target,4096,10,sparse (local w=64),0.1091
+global target,4096,10,linear (ReLU+1),0.0955
 global target,4096,11,softmax (naive),1.0
-global target,4096,11,linear (ReLU+1),0.08446500000000001
-global target,4096,11,sparse (local w=64),0.11814
 global target,4096,11,flash/SDPA (exact),1.0
+global target,4096,11,sparse (local w=64),0.1011
+global target,4096,11,linear (ReLU+1),0.0981
 global target,4096,12,softmax (naive),1.0
-global target,4096,12,linear (ReLU+1),0.09786500000000001
-global target,4096,12,sparse (local w=64),0.09144
 global target,4096,12,flash/SDPA (exact),1.0
+global target,4096,12,sparse (local w=64),0.1011
+global target,4096,12,linear (ReLU+1),0.0945
 global target,4096,13,softmax (naive),1.0
-global target,4096,13,linear (ReLU+1),0.08266500000000002
-global target,4096,13,sparse (local w=64),0.11104
 global target,4096,13,flash/SDPA (exact),1.0
+global target,4096,13,sparse (local w=64),0.1111
+global target,4096,13,linear (ReLU+1),0.0757
 global target,4096,14,softmax (naive),1.0
-global target,4096,14,linear (ReLU+1),0.079865
-global target,4096,14,sparse (local w=64),0.09594
 global target,4096,14,flash/SDPA (exact),1.0
+global target,4096,14,sparse (local w=64),0.0996
+global target,4096,14,linear (ReLU+1),0.0935
 global target,4096,15,softmax (naive),1.0
-global target,4096,15,linear (ReLU+1),0.09616500000000001
-global target,4096,15,sparse (local w=64),0.11194
 global target,4096,15,flash/SDPA (exact),1.0
+global target,4096,15,sparse (local w=64),0.1104
+global target,4096,15,linear (ReLU+1),0.1013
 global target,4096,16,softmax (naive),1.0
-global target,4096,16,linear (ReLU+1),0.099265
-global target,4096,16,sparse (local w=64),0.09784
 global target,4096,16,flash/SDPA (exact),1.0
+global target,4096,16,sparse (local w=64),0.1069
+global target,4096,16,linear (ReLU+1),0.1042
 global target,4096,17,softmax (naive),1.0
-global target,4096,17,linear (ReLU+1),0.10106500000000002
-global target,4096,17,sparse (local w=64),0.09824
 global target,4096,17,flash/SDPA (exact),1.0
+global target,4096,17,sparse (local w=64),0.1035
+global target,4096,17,linear (ReLU+1),0.1052
 global target,4096,18,softmax (naive),1.0
-global target,4096,18,linear (ReLU+1),0.08946500000000002
-global target,4096,18,sparse (local w=64),0.11354
 global target,4096,18,flash/SDPA (exact),1.0
+global target,4096,18,sparse (local w=64),0.105
+global target,4096,18,linear (ReLU+1),0.0698
 global target,4096,19,softmax (naive),1.0
-global target,4096,19,linear (ReLU+1),0.09916500000000002
-global target,4096,19,sparse (local w=64),0.11664
 global target,4096,19,flash/SDPA (exact),1.0
+global target,4096,19,sparse (local w=64),0.1106
+global target,4096,19,linear (ReLU+1),0.0825
 local target (|dist|<=64),64,0,softmax (naive),1.0
-local target (|dist|<=64),64,0,linear (ReLU+1),0.526455
-local target (|dist|<=64),64,0,sparse (local w=64),1.0
 local target (|dist|<=64),64,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,0,sparse (local w=64),1.0
+local target (|dist|<=64),64,0,linear (ReLU+1),0.6719
 local target (|dist|<=64),64,1,softmax (naive),1.0
-local target (|dist|<=64),64,1,linear (ReLU+1),0.5237550000000001
-local target (|dist|<=64),64,1,sparse (local w=64),1.0
 local target (|dist|<=64),64,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,1,sparse (local w=64),1.0
+local target (|dist|<=64),64,1,linear (ReLU+1),0.5312
 local target (|dist|<=64),64,2,softmax (naive),1.0
-local target (|dist|<=64),64,2,linear (ReLU+1),0.5095550000000001
-local target (|dist|<=64),64,2,sparse (local w=64),1.0
 local target (|dist|<=64),64,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,2,sparse (local w=64),1.0
+local target (|dist|<=64),64,2,linear (ReLU+1),0.3906
 local target (|dist|<=64),64,3,softmax (naive),1.0
-local target (|dist|<=64),64,3,linear (ReLU+1),0.5177550000000001
-local target (|dist|<=64),64,3,sparse (local w=64),1.0
 local target (|dist|<=64),64,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,3,sparse (local w=64),1.0
+local target (|dist|<=64),64,3,linear (ReLU+1),0.8125
 local target (|dist|<=64),64,4,softmax (naive),1.0
-local target (|dist|<=64),64,4,linear (ReLU+1),0.5147550000000001
-local target (|dist|<=64),64,4,sparse (local w=64),1.0
 local target (|dist|<=64),64,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,4,sparse (local w=64),1.0
+local target (|dist|<=64),64,4,linear (ReLU+1),0.1719
 local target (|dist|<=64),64,5,softmax (naive),1.0
-local target (|dist|<=64),64,5,linear (ReLU+1),0.514055
-local target (|dist|<=64),64,5,sparse (local w=64),1.0
 local target (|dist|<=64),64,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,5,sparse (local w=64),1.0
+local target (|dist|<=64),64,5,linear (ReLU+1),0.0625
 local target (|dist|<=64),64,6,softmax (naive),1.0
-local target (|dist|<=64),64,6,linear (ReLU+1),0.5359550000000001
-local target (|dist|<=64),64,6,sparse (local w=64),1.0
 local target (|dist|<=64),64,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,6,sparse (local w=64),1.0
+local target (|dist|<=64),64,6,linear (ReLU+1),0.1719
 local target (|dist|<=64),64,7,softmax (naive),1.0
-local target (|dist|<=64),64,7,linear (ReLU+1),0.5185550000000001
-local target (|dist|<=64),64,7,sparse (local w=64),1.0
 local target (|dist|<=64),64,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,7,sparse (local w=64),1.0
+local target (|dist|<=64),64,7,linear (ReLU+1),0.5312
 local target (|dist|<=64),64,8,softmax (naive),1.0
-local target (|dist|<=64),64,8,linear (ReLU+1),0.5335550000000001
-local target (|dist|<=64),64,8,sparse (local w=64),1.0
 local target (|dist|<=64),64,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,8,sparse (local w=64),1.0
+local target (|dist|<=64),64,8,linear (ReLU+1),0.75
 local target (|dist|<=64),64,9,softmax (naive),1.0
-local target (|dist|<=64),64,9,linear (ReLU+1),0.5256550000000001
-local target (|dist|<=64),64,9,sparse (local w=64),1.0
 local target (|dist|<=64),64,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,9,sparse (local w=64),1.0
+local target (|dist|<=64),64,9,linear (ReLU+1),0.125
 local target (|dist|<=64),64,10,softmax (naive),1.0
-local target (|dist|<=64),64,10,linear (ReLU+1),0.5305550000000001
-local target (|dist|<=64),64,10,sparse (local w=64),1.0
 local target (|dist|<=64),64,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,10,sparse (local w=64),1.0
+local target (|dist|<=64),64,10,linear (ReLU+1),0.7969
 local target (|dist|<=64),64,11,softmax (naive),1.0
-local target (|dist|<=64),64,11,linear (ReLU+1),0.5218550000000001
-local target (|dist|<=64),64,11,sparse (local w=64),1.0
 local target (|dist|<=64),64,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,11,sparse (local w=64),1.0
+local target (|dist|<=64),64,11,linear (ReLU+1),0.4531
 local target (|dist|<=64),64,12,softmax (naive),1.0
-local target (|dist|<=64),64,12,linear (ReLU+1),0.524055
-local target (|dist|<=64),64,12,sparse (local w=64),1.0
 local target (|dist|<=64),64,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,12,sparse (local w=64),1.0
+local target (|dist|<=64),64,12,linear (ReLU+1),0.4688
 local target (|dist|<=64),64,13,softmax (naive),1.0
-local target (|dist|<=64),64,13,linear (ReLU+1),0.5215550000000001
-local target (|dist|<=64),64,13,sparse (local w=64),1.0
 local target (|dist|<=64),64,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,13,sparse (local w=64),1.0
+local target (|dist|<=64),64,13,linear (ReLU+1),0.3281
 local target (|dist|<=64),64,14,softmax (naive),1.0
-local target (|dist|<=64),64,14,linear (ReLU+1),0.5126550000000001
-local target (|dist|<=64),64,14,sparse (local w=64),1.0
 local target (|dist|<=64),64,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,14,sparse (local w=64),1.0
+local target (|dist|<=64),64,14,linear (ReLU+1),0.1406
 local target (|dist|<=64),64,15,softmax (naive),1.0
-local target (|dist|<=64),64,15,linear (ReLU+1),0.528455
-local target (|dist|<=64),64,15,sparse (local w=64),1.0
 local target (|dist|<=64),64,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,15,sparse (local w=64),1.0
+local target (|dist|<=64),64,15,linear (ReLU+1),0.3906
 local target (|dist|<=64),64,16,softmax (naive),1.0
-local target (|dist|<=64),64,16,linear (ReLU+1),0.515155
-local target (|dist|<=64),64,16,sparse (local w=64),1.0
 local target (|dist|<=64),64,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,16,sparse (local w=64),1.0
+local target (|dist|<=64),64,16,linear (ReLU+1),0.1719
 local target (|dist|<=64),64,17,softmax (naive),1.0
-local target (|dist|<=64),64,17,linear (ReLU+1),0.5074550000000001
-local target (|dist|<=64),64,17,sparse (local w=64),1.0
 local target (|dist|<=64),64,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,17,sparse (local w=64),1.0
+local target (|dist|<=64),64,17,linear (ReLU+1),0.5156
 local target (|dist|<=64),64,18,softmax (naive),1.0
-local target (|dist|<=64),64,18,linear (ReLU+1),0.526155
-local target (|dist|<=64),64,18,sparse (local w=64),1.0
 local target (|dist|<=64),64,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,18,sparse (local w=64),1.0
+local target (|dist|<=64),64,18,linear (ReLU+1),0.1875
 local target (|dist|<=64),64,19,softmax (naive),1.0
-local target (|dist|<=64),64,19,linear (ReLU+1),0.512055
-local target (|dist|<=64),64,19,sparse (local w=64),1.0
 local target (|dist|<=64),64,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),64,19,sparse (local w=64),1.0
+local target (|dist|<=64),64,19,linear (ReLU+1),0.2031
 local target (|dist|<=64),256,0,softmax (naive),1.0
-local target (|dist|<=64),256,0,linear (ReLU+1),0.283895
-local target (|dist|<=64),256,0,sparse (local w=64),1.0
 local target (|dist|<=64),256,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,0,sparse (local w=64),1.0
+local target (|dist|<=64),256,0,linear (ReLU+1),0.3281
 local target (|dist|<=64),256,1,softmax (naive),1.0
-local target (|dist|<=64),256,1,linear (ReLU+1),0.284295
-local target (|dist|<=64),256,1,sparse (local w=64),1.0
 local target (|dist|<=64),256,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,1,sparse (local w=64),1.0
+local target (|dist|<=64),256,1,linear (ReLU+1),0.3711
 local target (|dist|<=64),256,2,softmax (naive),1.0
-local target (|dist|<=64),256,2,linear (ReLU+1),0.283095
-local target (|dist|<=64),256,2,sparse (local w=64),1.0
 local target (|dist|<=64),256,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,2,sparse (local w=64),1.0
+local target (|dist|<=64),256,2,linear (ReLU+1),0.1836
 local target (|dist|<=64),256,3,softmax (naive),1.0
-local target (|dist|<=64),256,3,linear (ReLU+1),0.266795
-local target (|dist|<=64),256,3,sparse (local w=64),1.0
 local target (|dist|<=64),256,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,3,sparse (local w=64),1.0
+local target (|dist|<=64),256,3,linear (ReLU+1),0.2344
 local target (|dist|<=64),256,4,softmax (naive),1.0
-local target (|dist|<=64),256,4,linear (ReLU+1),0.256195
-local target (|dist|<=64),256,4,sparse (local w=64),1.0
 local target (|dist|<=64),256,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,4,sparse (local w=64),1.0
+local target (|dist|<=64),256,4,linear (ReLU+1),0.1719
 local target (|dist|<=64),256,5,softmax (naive),1.0
-local target (|dist|<=64),256,5,linear (ReLU+1),0.283495
-local target (|dist|<=64),256,5,sparse (local w=64),1.0
 local target (|dist|<=64),256,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,5,sparse (local w=64),1.0
+local target (|dist|<=64),256,5,linear (ReLU+1),0.2148
 local target (|dist|<=64),256,6,softmax (naive),1.0
-local target (|dist|<=64),256,6,linear (ReLU+1),0.268495
-local target (|dist|<=64),256,6,sparse (local w=64),1.0
 local target (|dist|<=64),256,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,6,sparse (local w=64),1.0
+local target (|dist|<=64),256,6,linear (ReLU+1),0.1016
 local target (|dist|<=64),256,7,softmax (naive),1.0
-local target (|dist|<=64),256,7,linear (ReLU+1),0.284695
-local target (|dist|<=64),256,7,sparse (local w=64),1.0
 local target (|dist|<=64),256,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,7,sparse (local w=64),1.0
+local target (|dist|<=64),256,7,linear (ReLU+1),0.2695
 local target (|dist|<=64),256,8,softmax (naive),1.0
-local target (|dist|<=64),256,8,linear (ReLU+1),0.284595
-local target (|dist|<=64),256,8,sparse (local w=64),1.0
 local target (|dist|<=64),256,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,8,sparse (local w=64),1.0
+local target (|dist|<=64),256,8,linear (ReLU+1),0.1523
 local target (|dist|<=64),256,9,softmax (naive),1.0
-local target (|dist|<=64),256,9,linear (ReLU+1),0.281295
-local target (|dist|<=64),256,9,sparse (local w=64),1.0
 local target (|dist|<=64),256,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,9,sparse (local w=64),1.0
+local target (|dist|<=64),256,9,linear (ReLU+1),0.2422
 local target (|dist|<=64),256,10,softmax (naive),1.0
-local target (|dist|<=64),256,10,linear (ReLU+1),0.264495
-local target (|dist|<=64),256,10,sparse (local w=64),1.0
 local target (|dist|<=64),256,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,10,sparse (local w=64),1.0
+local target (|dist|<=64),256,10,linear (ReLU+1),0.125
 local target (|dist|<=64),256,11,softmax (naive),1.0
-local target (|dist|<=64),256,11,linear (ReLU+1),0.267295
-local target (|dist|<=64),256,11,sparse (local w=64),1.0
 local target (|dist|<=64),256,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,11,sparse (local w=64),1.0
+local target (|dist|<=64),256,11,linear (ReLU+1),0.3359
 local target (|dist|<=64),256,12,softmax (naive),1.0
-local target (|dist|<=64),256,12,linear (ReLU+1),0.281195
-local target (|dist|<=64),256,12,sparse (local w=64),1.0
 local target (|dist|<=64),256,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,12,sparse (local w=64),1.0
+local target (|dist|<=64),256,12,linear (ReLU+1),0.3242
 local target (|dist|<=64),256,13,softmax (naive),1.0
-local target (|dist|<=64),256,13,linear (ReLU+1),0.265195
-local target (|dist|<=64),256,13,sparse (local w=64),1.0
 local target (|dist|<=64),256,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,13,sparse (local w=64),1.0
+local target (|dist|<=64),256,13,linear (ReLU+1),0.1719
 local target (|dist|<=64),256,14,softmax (naive),1.0
-local target (|dist|<=64),256,14,linear (ReLU+1),0.260795
-local target (|dist|<=64),256,14,sparse (local w=64),1.0
 local target (|dist|<=64),256,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,14,sparse (local w=64),1.0
+local target (|dist|<=64),256,14,linear (ReLU+1),0.1562
 local target (|dist|<=64),256,15,softmax (naive),1.0
-local target (|dist|<=64),256,15,linear (ReLU+1),0.272395
-local target (|dist|<=64),256,15,sparse (local w=64),1.0
 local target (|dist|<=64),256,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,15,sparse (local w=64),1.0
+local target (|dist|<=64),256,15,linear (ReLU+1),0.2969
 local target (|dist|<=64),256,16,softmax (naive),1.0
-local target (|dist|<=64),256,16,linear (ReLU+1),0.283795
-local target (|dist|<=64),256,16,sparse (local w=64),1.0
 local target (|dist|<=64),256,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,16,sparse (local w=64),1.0
+local target (|dist|<=64),256,16,linear (ReLU+1),0.2383
 local target (|dist|<=64),256,17,softmax (naive),1.0
-local target (|dist|<=64),256,17,linear (ReLU+1),0.276595
-local target (|dist|<=64),256,17,sparse (local w=64),1.0
 local target (|dist|<=64),256,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,17,sparse (local w=64),1.0
+local target (|dist|<=64),256,17,linear (ReLU+1),0.207
 local target (|dist|<=64),256,18,softmax (naive),1.0
-local target (|dist|<=64),256,18,linear (ReLU+1),0.272795
-local target (|dist|<=64),256,18,sparse (local w=64),1.0
 local target (|dist|<=64),256,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,18,sparse (local w=64),1.0
+local target (|dist|<=64),256,18,linear (ReLU+1),0.1992
 local target (|dist|<=64),256,19,softmax (naive),1.0
-local target (|dist|<=64),256,19,linear (ReLU+1),0.258595
-local target (|dist|<=64),256,19,sparse (local w=64),1.0
 local target (|dist|<=64),256,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),256,19,sparse (local w=64),1.0
+local target (|dist|<=64),256,19,linear (ReLU+1),0.2422
 local target (|dist|<=64),512,0,softmax (naive),1.0
-local target (|dist|<=64),512,0,linear (ReLU+1),0.17256499999999997
-local target (|dist|<=64),512,0,sparse (local w=64),1.0
 local target (|dist|<=64),512,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,0,sparse (local w=64),1.0
+local target (|dist|<=64),512,0,linear (ReLU+1),0.0762
 local target (|dist|<=64),512,1,softmax (naive),1.0
-local target (|dist|<=64),512,1,linear (ReLU+1),0.18376499999999998
-local target (|dist|<=64),512,1,sparse (local w=64),1.0
 local target (|dist|<=64),512,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,1,sparse (local w=64),1.0
+local target (|dist|<=64),512,1,linear (ReLU+1),0.1895
 local target (|dist|<=64),512,2,softmax (naive),1.0
-local target (|dist|<=64),512,2,linear (ReLU+1),0.158265
-local target (|dist|<=64),512,2,sparse (local w=64),1.0
 local target (|dist|<=64),512,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,2,sparse (local w=64),1.0
+local target (|dist|<=64),512,2,linear (ReLU+1),0.1309
 local target (|dist|<=64),512,3,softmax (naive),1.0
-local target (|dist|<=64),512,3,linear (ReLU+1),0.16956499999999997
-local target (|dist|<=64),512,3,sparse (local w=64),1.0
 local target (|dist|<=64),512,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,3,sparse (local w=64),1.0
+local target (|dist|<=64),512,3,linear (ReLU+1),0.1113
 local target (|dist|<=64),512,4,softmax (naive),1.0
-local target (|dist|<=64),512,4,linear (ReLU+1),0.18036499999999997
-local target (|dist|<=64),512,4,sparse (local w=64),1.0
 local target (|dist|<=64),512,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,4,sparse (local w=64),1.0
+local target (|dist|<=64),512,4,linear (ReLU+1),0.0938
 local target (|dist|<=64),512,5,softmax (naive),1.0
-local target (|dist|<=64),512,5,linear (ReLU+1),0.17626499999999998
-local target (|dist|<=64),512,5,sparse (local w=64),1.0
 local target (|dist|<=64),512,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,5,sparse (local w=64),1.0
+local target (|dist|<=64),512,5,linear (ReLU+1),0.1934
 local target (|dist|<=64),512,6,softmax (naive),1.0
-local target (|dist|<=64),512,6,linear (ReLU+1),0.17496499999999998
-local target (|dist|<=64),512,6,sparse (local w=64),1.0
 local target (|dist|<=64),512,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,6,sparse (local w=64),1.0
+local target (|dist|<=64),512,6,linear (ReLU+1),0.0957
 local target (|dist|<=64),512,7,softmax (naive),1.0
-local target (|dist|<=64),512,7,linear (ReLU+1),0.175165
-local target (|dist|<=64),512,7,sparse (local w=64),1.0
 local target (|dist|<=64),512,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,7,sparse (local w=64),1.0
+local target (|dist|<=64),512,7,linear (ReLU+1),0.1914
 local target (|dist|<=64),512,8,softmax (naive),1.0
-local target (|dist|<=64),512,8,linear (ReLU+1),0.16486499999999998
-local target (|dist|<=64),512,8,sparse (local w=64),1.0
 local target (|dist|<=64),512,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,8,sparse (local w=64),1.0
+local target (|dist|<=64),512,8,linear (ReLU+1),0.1289
 local target (|dist|<=64),512,9,softmax (naive),1.0
-local target (|dist|<=64),512,9,linear (ReLU+1),0.16286499999999998
-local target (|dist|<=64),512,9,sparse (local w=64),1.0
 local target (|dist|<=64),512,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,9,sparse (local w=64),1.0
+local target (|dist|<=64),512,9,linear (ReLU+1),0.1289
 local target (|dist|<=64),512,10,softmax (naive),1.0
-local target (|dist|<=64),512,10,linear (ReLU+1),0.17836499999999997
-local target (|dist|<=64),512,10,sparse (local w=64),1.0
 local target (|dist|<=64),512,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,10,sparse (local w=64),1.0
+local target (|dist|<=64),512,10,linear (ReLU+1),0.2344
 local target (|dist|<=64),512,11,softmax (naive),1.0
-local target (|dist|<=64),512,11,linear (ReLU+1),0.17836499999999997
-local target (|dist|<=64),512,11,sparse (local w=64),1.0
 local target (|dist|<=64),512,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,11,sparse (local w=64),1.0
+local target (|dist|<=64),512,11,linear (ReLU+1),0.1172
 local target (|dist|<=64),512,12,softmax (naive),1.0
-local target (|dist|<=64),512,12,linear (ReLU+1),0.18006499999999998
-local target (|dist|<=64),512,12,sparse (local w=64),1.0
 local target (|dist|<=64),512,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,12,sparse (local w=64),1.0
+local target (|dist|<=64),512,12,linear (ReLU+1),0.1855
 local target (|dist|<=64),512,13,softmax (naive),1.0
-local target (|dist|<=64),512,13,linear (ReLU+1),0.181465
-local target (|dist|<=64),512,13,sparse (local w=64),1.0
 local target (|dist|<=64),512,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,13,sparse (local w=64),1.0
+local target (|dist|<=64),512,13,linear (ReLU+1),0.1211
 local target (|dist|<=64),512,14,softmax (naive),1.0
-local target (|dist|<=64),512,14,linear (ReLU+1),0.169365
-local target (|dist|<=64),512,14,sparse (local w=64),1.0
 local target (|dist|<=64),512,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,14,sparse (local w=64),1.0
+local target (|dist|<=64),512,14,linear (ReLU+1),0.1699
 local target (|dist|<=64),512,15,softmax (naive),1.0
-local target (|dist|<=64),512,15,linear (ReLU+1),0.16906499999999997
-local target (|dist|<=64),512,15,sparse (local w=64),1.0
 local target (|dist|<=64),512,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,15,sparse (local w=64),1.0
+local target (|dist|<=64),512,15,linear (ReLU+1),0.1523
 local target (|dist|<=64),512,16,softmax (naive),1.0
-local target (|dist|<=64),512,16,linear (ReLU+1),0.17796499999999998
-local target (|dist|<=64),512,16,sparse (local w=64),1.0
 local target (|dist|<=64),512,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,16,sparse (local w=64),1.0
+local target (|dist|<=64),512,16,linear (ReLU+1),0.1855
 local target (|dist|<=64),512,17,softmax (naive),1.0
-local target (|dist|<=64),512,17,linear (ReLU+1),0.17356499999999997
-local target (|dist|<=64),512,17,sparse (local w=64),1.0
 local target (|dist|<=64),512,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,17,sparse (local w=64),1.0
+local target (|dist|<=64),512,17,linear (ReLU+1),0.1367
 local target (|dist|<=64),512,18,softmax (naive),1.0
-local target (|dist|<=64),512,18,linear (ReLU+1),0.175165
-local target (|dist|<=64),512,18,sparse (local w=64),1.0
 local target (|dist|<=64),512,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,18,sparse (local w=64),1.0
+local target (|dist|<=64),512,18,linear (ReLU+1),0.1328
 local target (|dist|<=64),512,19,softmax (naive),1.0
-local target (|dist|<=64),512,19,linear (ReLU+1),0.17796499999999998
-local target (|dist|<=64),512,19,sparse (local w=64),1.0
 local target (|dist|<=64),512,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),512,19,sparse (local w=64),1.0
+local target (|dist|<=64),512,19,linear (ReLU+1),0.1699
 local target (|dist|<=64),1024,0,softmax (naive),1.0
-local target (|dist|<=64),1024,0,linear (ReLU+1),0.15601
-local target (|dist|<=64),1024,0,sparse (local w=64),1.0
 local target (|dist|<=64),1024,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,0,sparse (local w=64),1.0
+local target (|dist|<=64),1024,0,linear (ReLU+1),0.1396
 local target (|dist|<=64),1024,1,softmax (naive),1.0
-local target (|dist|<=64),1024,1,linear (ReLU+1),0.13941
-local target (|dist|<=64),1024,1,sparse (local w=64),1.0
 local target (|dist|<=64),1024,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,1,sparse (local w=64),1.0
+local target (|dist|<=64),1024,1,linear (ReLU+1),0.1348
 local target (|dist|<=64),1024,2,softmax (naive),1.0
-local target (|dist|<=64),1024,2,linear (ReLU+1),0.14061
-local target (|dist|<=64),1024,2,sparse (local w=64),1.0
 local target (|dist|<=64),1024,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,2,sparse (local w=64),1.0
+local target (|dist|<=64),1024,2,linear (ReLU+1),0.1475
 local target (|dist|<=64),1024,3,softmax (naive),1.0
-local target (|dist|<=64),1024,3,linear (ReLU+1),0.13211
-local target (|dist|<=64),1024,3,sparse (local w=64),1.0
 local target (|dist|<=64),1024,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,3,sparse (local w=64),1.0
+local target (|dist|<=64),1024,3,linear (ReLU+1),0.1768
 local target (|dist|<=64),1024,4,softmax (naive),1.0
-local target (|dist|<=64),1024,4,linear (ReLU+1),0.14661000000000002
-local target (|dist|<=64),1024,4,sparse (local w=64),1.0
 local target (|dist|<=64),1024,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,4,sparse (local w=64),1.0
+local target (|dist|<=64),1024,4,linear (ReLU+1),0.0586
 local target (|dist|<=64),1024,5,softmax (naive),1.0
-local target (|dist|<=64),1024,5,linear (ReLU+1),0.13041
-local target (|dist|<=64),1024,5,sparse (local w=64),1.0
 local target (|dist|<=64),1024,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,5,sparse (local w=64),1.0
+local target (|dist|<=64),1024,5,linear (ReLU+1),0.1064
 local target (|dist|<=64),1024,6,softmax (naive),1.0
-local target (|dist|<=64),1024,6,linear (ReLU+1),0.14331000000000002
-local target (|dist|<=64),1024,6,sparse (local w=64),1.0
 local target (|dist|<=64),1024,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,6,sparse (local w=64),1.0
+local target (|dist|<=64),1024,6,linear (ReLU+1),0.1318
 local target (|dist|<=64),1024,7,softmax (naive),1.0
-local target (|dist|<=64),1024,7,linear (ReLU+1),0.14561000000000002
-local target (|dist|<=64),1024,7,sparse (local w=64),1.0
 local target (|dist|<=64),1024,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,7,sparse (local w=64),1.0
+local target (|dist|<=64),1024,7,linear (ReLU+1),0.1611
 local target (|dist|<=64),1024,8,softmax (naive),1.0
-local target (|dist|<=64),1024,8,linear (ReLU+1),0.13791
-local target (|dist|<=64),1024,8,sparse (local w=64),1.0
 local target (|dist|<=64),1024,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,8,sparse (local w=64),1.0
+local target (|dist|<=64),1024,8,linear (ReLU+1),0.1768
 local target (|dist|<=64),1024,9,softmax (naive),1.0
-local target (|dist|<=64),1024,9,linear (ReLU+1),0.14701
-local target (|dist|<=64),1024,9,sparse (local w=64),1.0
 local target (|dist|<=64),1024,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,9,sparse (local w=64),1.0
+local target (|dist|<=64),1024,9,linear (ReLU+1),0.1211
 local target (|dist|<=64),1024,10,softmax (naive),1.0
-local target (|dist|<=64),1024,10,linear (ReLU+1),0.13021000000000002
-local target (|dist|<=64),1024,10,sparse (local w=64),1.0
 local target (|dist|<=64),1024,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,10,sparse (local w=64),1.0
+local target (|dist|<=64),1024,10,linear (ReLU+1),0.1338
 local target (|dist|<=64),1024,11,softmax (naive),1.0
-local target (|dist|<=64),1024,11,linear (ReLU+1),0.13041
-local target (|dist|<=64),1024,11,sparse (local w=64),1.0
 local target (|dist|<=64),1024,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,11,sparse (local w=64),1.0
+local target (|dist|<=64),1024,11,linear (ReLU+1),0.127
 local target (|dist|<=64),1024,12,softmax (naive),1.0
-local target (|dist|<=64),1024,12,linear (ReLU+1),0.15401
-local target (|dist|<=64),1024,12,sparse (local w=64),1.0
 local target (|dist|<=64),1024,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,12,sparse (local w=64),1.0
+local target (|dist|<=64),1024,12,linear (ReLU+1),0.125
 local target (|dist|<=64),1024,13,softmax (naive),1.0
-local target (|dist|<=64),1024,13,linear (ReLU+1),0.14011
-local target (|dist|<=64),1024,13,sparse (local w=64),1.0
 local target (|dist|<=64),1024,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,13,sparse (local w=64),1.0
+local target (|dist|<=64),1024,13,linear (ReLU+1),0.1006
 local target (|dist|<=64),1024,14,softmax (naive),1.0
-local target (|dist|<=64),1024,14,linear (ReLU+1),0.13311
-local target (|dist|<=64),1024,14,sparse (local w=64),1.0
 local target (|dist|<=64),1024,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,14,sparse (local w=64),1.0
+local target (|dist|<=64),1024,14,linear (ReLU+1),0.1094
 local target (|dist|<=64),1024,15,softmax (naive),1.0
-local target (|dist|<=64),1024,15,linear (ReLU+1),0.14501
-local target (|dist|<=64),1024,15,sparse (local w=64),1.0
 local target (|dist|<=64),1024,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,15,sparse (local w=64),1.0
+local target (|dist|<=64),1024,15,linear (ReLU+1),0.123
 local target (|dist|<=64),1024,16,softmax (naive),1.0
-local target (|dist|<=64),1024,16,linear (ReLU+1),0.15241000000000002
-local target (|dist|<=64),1024,16,sparse (local w=64),1.0
 local target (|dist|<=64),1024,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,16,sparse (local w=64),1.0
+local target (|dist|<=64),1024,16,linear (ReLU+1),0.0859
 local target (|dist|<=64),1024,17,softmax (naive),1.0
-local target (|dist|<=64),1024,17,linear (ReLU+1),0.13581000000000001
-local target (|dist|<=64),1024,17,sparse (local w=64),1.0
 local target (|dist|<=64),1024,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,17,sparse (local w=64),1.0
+local target (|dist|<=64),1024,17,linear (ReLU+1),0.1348
 local target (|dist|<=64),1024,18,softmax (naive),1.0
-local target (|dist|<=64),1024,18,linear (ReLU+1),0.14801
-local target (|dist|<=64),1024,18,sparse (local w=64),1.0
 local target (|dist|<=64),1024,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,18,sparse (local w=64),1.0
+local target (|dist|<=64),1024,18,linear (ReLU+1),0.0713
 local target (|dist|<=64),1024,19,softmax (naive),1.0
-local target (|dist|<=64),1024,19,linear (ReLU+1),0.13191
-local target (|dist|<=64),1024,19,sparse (local w=64),1.0
 local target (|dist|<=64),1024,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),1024,19,sparse (local w=64),1.0
+local target (|dist|<=64),1024,19,linear (ReLU+1),0.1201
 local target (|dist|<=64),2048,0,softmax (naive),1.0
-local target (|dist|<=64),2048,0,linear (ReLU+1),0.10149500000000002
-local target (|dist|<=64),2048,0,sparse (local w=64),1.0
 local target (|dist|<=64),2048,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,0,sparse (local w=64),1.0
+local target (|dist|<=64),2048,0,linear (ReLU+1),0.0903
 local target (|dist|<=64),2048,1,softmax (naive),1.0
-local target (|dist|<=64),2048,1,linear (ReLU+1),0.11579500000000002
-local target (|dist|<=64),2048,1,sparse (local w=64),1.0
 local target (|dist|<=64),2048,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,1,sparse (local w=64),1.0
+local target (|dist|<=64),2048,1,linear (ReLU+1),0.0864
 local target (|dist|<=64),2048,2,softmax (naive),1.0
-local target (|dist|<=64),2048,2,linear (ReLU+1),0.11609500000000002
-local target (|dist|<=64),2048,2,sparse (local w=64),1.0
 local target (|dist|<=64),2048,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,2,sparse (local w=64),1.0
+local target (|dist|<=64),2048,2,linear (ReLU+1),0.1221
 local target (|dist|<=64),2048,3,softmax (naive),1.0
-local target (|dist|<=64),2048,3,linear (ReLU+1),0.11899500000000002
-local target (|dist|<=64),2048,3,sparse (local w=64),1.0
 local target (|dist|<=64),2048,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,3,sparse (local w=64),1.0
+local target (|dist|<=64),2048,3,linear (ReLU+1),0.1206
 local target (|dist|<=64),2048,4,softmax (naive),1.0
-local target (|dist|<=64),2048,4,linear (ReLU+1),0.12169500000000003
-local target (|dist|<=64),2048,4,sparse (local w=64),1.0
 local target (|dist|<=64),2048,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,4,sparse (local w=64),1.0
+local target (|dist|<=64),2048,4,linear (ReLU+1),0.1064
 local target (|dist|<=64),2048,5,softmax (naive),1.0
-local target (|dist|<=64),2048,5,linear (ReLU+1),0.129195
-local target (|dist|<=64),2048,5,sparse (local w=64),1.0
 local target (|dist|<=64),2048,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,5,sparse (local w=64),1.0
+local target (|dist|<=64),2048,5,linear (ReLU+1),0.0977
 local target (|dist|<=64),2048,6,softmax (naive),1.0
-local target (|dist|<=64),2048,6,linear (ReLU+1),0.11539500000000003
-local target (|dist|<=64),2048,6,sparse (local w=64),1.0
 local target (|dist|<=64),2048,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,6,sparse (local w=64),1.0
+local target (|dist|<=64),2048,6,linear (ReLU+1),0.0884
 local target (|dist|<=64),2048,7,softmax (naive),1.0
-local target (|dist|<=64),2048,7,linear (ReLU+1),0.10959500000000003
-local target (|dist|<=64),2048,7,sparse (local w=64),1.0
 local target (|dist|<=64),2048,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,7,sparse (local w=64),1.0
+local target (|dist|<=64),2048,7,linear (ReLU+1),0.0835
 local target (|dist|<=64),2048,8,softmax (naive),1.0
-local target (|dist|<=64),2048,8,linear (ReLU+1),0.12379500000000002
-local target (|dist|<=64),2048,8,sparse (local w=64),1.0
 local target (|dist|<=64),2048,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,8,sparse (local w=64),1.0
+local target (|dist|<=64),2048,8,linear (ReLU+1),0.0742
 local target (|dist|<=64),2048,9,softmax (naive),1.0
-local target (|dist|<=64),2048,9,linear (ReLU+1),0.10799500000000002
-local target (|dist|<=64),2048,9,sparse (local w=64),1.0
 local target (|dist|<=64),2048,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,9,sparse (local w=64),1.0
+local target (|dist|<=64),2048,9,linear (ReLU+1),0.1084
 local target (|dist|<=64),2048,10,softmax (naive),1.0
-local target (|dist|<=64),2048,10,linear (ReLU+1),0.11309500000000001
-local target (|dist|<=64),2048,10,sparse (local w=64),1.0
 local target (|dist|<=64),2048,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,10,sparse (local w=64),1.0
+local target (|dist|<=64),2048,10,linear (ReLU+1),0.1201
 local target (|dist|<=64),2048,11,softmax (naive),1.0
-local target (|dist|<=64),2048,11,linear (ReLU+1),0.10229500000000002
-local target (|dist|<=64),2048,11,sparse (local w=64),1.0
 local target (|dist|<=64),2048,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,11,sparse (local w=64),1.0
+local target (|dist|<=64),2048,11,linear (ReLU+1),0.1152
 local target (|dist|<=64),2048,12,softmax (naive),1.0
-local target (|dist|<=64),2048,12,linear (ReLU+1),0.10069500000000002
-local target (|dist|<=64),2048,12,sparse (local w=64),1.0
 local target (|dist|<=64),2048,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,12,sparse (local w=64),1.0
+local target (|dist|<=64),2048,12,linear (ReLU+1),0.1216
 local target (|dist|<=64),2048,13,softmax (naive),1.0
-local target (|dist|<=64),2048,13,linear (ReLU+1),0.12879500000000005
-local target (|dist|<=64),2048,13,sparse (local w=64),1.0
 local target (|dist|<=64),2048,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,13,sparse (local w=64),1.0
+local target (|dist|<=64),2048,13,linear (ReLU+1),0.1089
 local target (|dist|<=64),2048,14,softmax (naive),1.0
-local target (|dist|<=64),2048,14,linear (ReLU+1),0.12499500000000002
-local target (|dist|<=64),2048,14,sparse (local w=64),1.0
 local target (|dist|<=64),2048,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,14,sparse (local w=64),1.0
+local target (|dist|<=64),2048,14,linear (ReLU+1),0.1011
 local target (|dist|<=64),2048,15,softmax (naive),1.0
-local target (|dist|<=64),2048,15,linear (ReLU+1),0.12079500000000003
-local target (|dist|<=64),2048,15,sparse (local w=64),1.0
 local target (|dist|<=64),2048,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,15,sparse (local w=64),1.0
+local target (|dist|<=64),2048,15,linear (ReLU+1),0.125
 local target (|dist|<=64),2048,16,softmax (naive),1.0
-local target (|dist|<=64),2048,16,linear (ReLU+1),0.11219500000000002
-local target (|dist|<=64),2048,16,sparse (local w=64),1.0
 local target (|dist|<=64),2048,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,16,sparse (local w=64),1.0
+local target (|dist|<=64),2048,16,linear (ReLU+1),0.1304
 local target (|dist|<=64),2048,17,softmax (naive),1.0
-local target (|dist|<=64),2048,17,linear (ReLU+1),0.10509500000000002
-local target (|dist|<=64),2048,17,sparse (local w=64),1.0
 local target (|dist|<=64),2048,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,17,sparse (local w=64),1.0
+local target (|dist|<=64),2048,17,linear (ReLU+1),0.0957
 local target (|dist|<=64),2048,18,softmax (naive),1.0
-local target (|dist|<=64),2048,18,linear (ReLU+1),0.10459500000000002
-local target (|dist|<=64),2048,18,sparse (local w=64),1.0
 local target (|dist|<=64),2048,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,18,sparse (local w=64),1.0
+local target (|dist|<=64),2048,18,linear (ReLU+1),0.0962
 local target (|dist|<=64),2048,19,softmax (naive),1.0
-local target (|dist|<=64),2048,19,linear (ReLU+1),0.10739500000000002
-local target (|dist|<=64),2048,19,sparse (local w=64),1.0
 local target (|dist|<=64),2048,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),2048,19,sparse (local w=64),1.0
+local target (|dist|<=64),2048,19,linear (ReLU+1),0.0718
 local target (|dist|<=64),4096,0,softmax (naive),1.0
-local target (|dist|<=64),4096,0,linear (ReLU+1),0.09572
-local target (|dist|<=64),4096,0,sparse (local w=64),1.0
 local target (|dist|<=64),4096,0,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,0,sparse (local w=64),1.0
+local target (|dist|<=64),4096,0,linear (ReLU+1),0.0779
 local target (|dist|<=64),4096,1,softmax (naive),1.0
-local target (|dist|<=64),4096,1,linear (ReLU+1),0.10062
-local target (|dist|<=64),4096,1,sparse (local w=64),1.0
 local target (|dist|<=64),4096,1,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,1,sparse (local w=64),1.0
+local target (|dist|<=64),4096,1,linear (ReLU+1),0.1006
 local target (|dist|<=64),4096,2,softmax (naive),1.0
-local target (|dist|<=64),4096,2,linear (ReLU+1),0.09902
-local target (|dist|<=64),4096,2,sparse (local w=64),1.0
 local target (|dist|<=64),4096,2,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,2,sparse (local w=64),1.0
+local target (|dist|<=64),4096,2,linear (ReLU+1),0.1025
 local target (|dist|<=64),4096,3,softmax (naive),1.0
-local target (|dist|<=64),4096,3,linear (ReLU+1),0.08762
-local target (|dist|<=64),4096,3,sparse (local w=64),1.0
 local target (|dist|<=64),4096,3,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,3,sparse (local w=64),1.0
+local target (|dist|<=64),4096,3,linear (ReLU+1),0.0837
 local target (|dist|<=64),4096,4,softmax (naive),1.0
-local target (|dist|<=64),4096,4,linear (ReLU+1),0.10782
-local target (|dist|<=64),4096,4,sparse (local w=64),1.0
 local target (|dist|<=64),4096,4,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,4,sparse (local w=64),1.0
+local target (|dist|<=64),4096,4,linear (ReLU+1),0.0657
 local target (|dist|<=64),4096,5,softmax (naive),1.0
-local target (|dist|<=64),4096,5,linear (ReLU+1),0.10132
-local target (|dist|<=64),4096,5,sparse (local w=64),1.0
 local target (|dist|<=64),4096,5,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,5,sparse (local w=64),1.0
+local target (|dist|<=64),4096,5,linear (ReLU+1),0.0815
 local target (|dist|<=64),4096,6,softmax (naive),1.0
-local target (|dist|<=64),4096,6,linear (ReLU+1),0.09582
-local target (|dist|<=64),4096,6,sparse (local w=64),1.0
 local target (|dist|<=64),4096,6,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,6,sparse (local w=64),1.0
+local target (|dist|<=64),4096,6,linear (ReLU+1),0.085
 local target (|dist|<=64),4096,7,softmax (naive),1.0
-local target (|dist|<=64),4096,7,linear (ReLU+1),0.09762
-local target (|dist|<=64),4096,7,sparse (local w=64),1.0
 local target (|dist|<=64),4096,7,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,7,sparse (local w=64),1.0
+local target (|dist|<=64),4096,7,linear (ReLU+1),0.0811
 local target (|dist|<=64),4096,8,softmax (naive),1.0
-local target (|dist|<=64),4096,8,linear (ReLU+1),0.09182
-local target (|dist|<=64),4096,8,sparse (local w=64),1.0
 local target (|dist|<=64),4096,8,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,8,sparse (local w=64),1.0
+local target (|dist|<=64),4096,8,linear (ReLU+1),0.0759
 local target (|dist|<=64),4096,9,softmax (naive),1.0
-local target (|dist|<=64),4096,9,linear (ReLU+1),0.08662
-local target (|dist|<=64),4096,9,sparse (local w=64),1.0
 local target (|dist|<=64),4096,9,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,9,sparse (local w=64),1.0
+local target (|dist|<=64),4096,9,linear (ReLU+1),0.0654
 local target (|dist|<=64),4096,10,softmax (naive),1.0
-local target (|dist|<=64),4096,10,linear (ReLU+1),0.08992
-local target (|dist|<=64),4096,10,sparse (local w=64),1.0
 local target (|dist|<=64),4096,10,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,10,sparse (local w=64),1.0
+local target (|dist|<=64),4096,10,linear (ReLU+1),0.0977
 local target (|dist|<=64),4096,11,softmax (naive),1.0
-local target (|dist|<=64),4096,11,linear (ReLU+1),0.10192
-local target (|dist|<=64),4096,11,sparse (local w=64),1.0
 local target (|dist|<=64),4096,11,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,11,sparse (local w=64),1.0
+local target (|dist|<=64),4096,11,linear (ReLU+1),0.1021
 local target (|dist|<=64),4096,12,softmax (naive),1.0
-local target (|dist|<=64),4096,12,linear (ReLU+1),0.07962
-local target (|dist|<=64),4096,12,sparse (local w=64),1.0
 local target (|dist|<=64),4096,12,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,12,sparse (local w=64),1.0
+local target (|dist|<=64),4096,12,linear (ReLU+1),0.0837
 local target (|dist|<=64),4096,13,softmax (naive),1.0
-local target (|dist|<=64),4096,13,linear (ReLU+1),0.08272
-local target (|dist|<=64),4096,13,sparse (local w=64),1.0
 local target (|dist|<=64),4096,13,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,13,sparse (local w=64),1.0
+local target (|dist|<=64),4096,13,linear (ReLU+1),0.0757
 local target (|dist|<=64),4096,14,softmax (naive),1.0
-local target (|dist|<=64),4096,14,linear (ReLU+1),0.08062
-local target (|dist|<=64),4096,14,sparse (local w=64),1.0
 local target (|dist|<=64),4096,14,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,14,sparse (local w=64),1.0
+local target (|dist|<=64),4096,14,linear (ReLU+1),0.0813
 local target (|dist|<=64),4096,15,softmax (naive),1.0
-local target (|dist|<=64),4096,15,linear (ReLU+1),0.08042
-local target (|dist|<=64),4096,15,sparse (local w=64),1.0
 local target (|dist|<=64),4096,15,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,15,sparse (local w=64),1.0
+local target (|dist|<=64),4096,15,linear (ReLU+1),0.1013
 local target (|dist|<=64),4096,16,softmax (naive),1.0
-local target (|dist|<=64),4096,16,linear (ReLU+1),0.10492
-local target (|dist|<=64),4096,16,sparse (local w=64),1.0
 local target (|dist|<=64),4096,16,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,16,sparse (local w=64),1.0
+local target (|dist|<=64),4096,16,linear (ReLU+1),0.1033
 local target (|dist|<=64),4096,17,softmax (naive),1.0
-local target (|dist|<=64),4096,17,linear (ReLU+1),0.10031999999999999
-local target (|dist|<=64),4096,17,sparse (local w=64),1.0
 local target (|dist|<=64),4096,17,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,17,sparse (local w=64),1.0
+local target (|dist|<=64),4096,17,linear (ReLU+1),0.1077
 local target (|dist|<=64),4096,18,softmax (naive),1.0
-local target (|dist|<=64),4096,18,linear (ReLU+1),0.09342
-local target (|dist|<=64),4096,18,sparse (local w=64),1.0
 local target (|dist|<=64),4096,18,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,18,sparse (local w=64),1.0
+local target (|dist|<=64),4096,18,linear (ReLU+1),0.0579
 local target (|dist|<=64),4096,19,softmax (naive),1.0
-local target (|dist|<=64),4096,19,linear (ReLU+1),0.08212
-local target (|dist|<=64),4096,19,sparse (local w=64),1.0
 local target (|dist|<=64),4096,19,flash/SDPA (exact),1.0
+local target (|dist|<=64),4096,19,sparse (local w=64),1.0
+local target (|dist|<=64),4096,19,linear (ReLU+1),0.0813

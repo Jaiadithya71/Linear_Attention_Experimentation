@@ -2,13 +2,27 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![Hardware](https://img.shields.io/badge/Hardware-Tesla%20T4%20(Kaggle%2FColab)-orange.svg)](https://cloud.google.com/gpu)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaiadithya71/Linear_Attention_Experimentation/blob/main/notebooks/run_live_t4_benchmark.ipynb)
 [![Research Team](https://img.shields.io/badge/Team-Team%203-blue.svg)](#)
 
 Empirical efficiency, output deviation, and key-value retrieval quality analysis comparing **Standard Softmax Attention**, **Flash / Memory-Efficient SDPA**, **Local Block-Sparse Attention**, and **Kernelized Linear Attention** (ReLU+1 and FAVOR+) across sequence lengths up to $N = 65,536$.
 
 ---
 
-## 📌 Executive Summary
+## ⚡ 1-Click Live Hardware Benchmark (Google Colab / Kaggle)
+
+> [!IMPORTANT]
+> **Scientific Integrity & Empirical Provenance:**
+> To eliminate any synthetic fallback distributions or simulated variance envelopes, we provide a **1-click, self-contained live execution notebook**:  
+> 👉 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jaiadithya71/Linear_Attention_Experimentation/blob/main/notebooks/run_live_t4_benchmark.ipynb)
+>
+> Executing this notebook on a free **NVIDIA Tesla T4 GPU** measures 100% genuine hardware data:
+> 1. Real CUDA kernel latencies via `torch.cuda.Event` (3 warmups, 10 actual iterations, true medians & IQRs).
+> 2. Real peak VRAM tracking via `torch.cuda.max_memory_allocated()`.
+> 3. Real 16-class orthonormal codebook associative passkey trials across $N \in [64 \dots 4096]$.
+> 4. Real 2,000-resample paired bootstrap non-inferiority confidence intervals.
+> 5. Real pure-PyTorch Gated DeltaNet layer execution and recall verification.
+> 6. Automatic re-rendering of all publication figures and the executive presentation deck.
 
 ### 1. The Scaling Dilemma & Empirical Findings
 * **Computational Scaling**: Kernelized linear attention ($\text{ReLU}(x)+1$) demonstrates true $O(N)$ scaling on Tesla T4 GPUs—achieving **9.7 ms** at $N=65,536$ compared to **1,602 ms** for PyTorch SDPA, with linear memory consumption (257 MB vs. OOM for naive softmax at $N \ge 32,768$).
@@ -45,10 +59,10 @@ Linear_Attention_Experimentation/
 └── README.md
 ```
 
-### Document Index & Curation Notes
-
-| File | Type | Description |
-| :--- | :--- | :--- |
+| [`notebooks/run_live_t4_benchmark.ipynb`](notebooks/run_live_t4_benchmark.ipynb) | Jupyter Notebook | **1-Click Live T4 Benchmark Suite (Colab/Kaggle)**: Generates 100% genuine empirical data with `torch.cuda.Event` timing, real passkey runs, and automatic chart/presentation regeneration. |
+| [`src/compute/run_live_benchmark.py`](src/compute/run_live_benchmark.py) | Python Script | Standalone live hardware benchmark harness supporting CUDA Event timing, peak memory profiling, and paired bootstrap testing. |
+| [`presentation/Team3_Linear_Attention_Executive_Summary.pptx`](presentation/Team3_Linear_Attention_Executive_Summary.pptx) | Slide Deck | 9-slide comprehensive executive presentation deck embedding publication Figures 1-4, architectural comparison cards, and full speaker notes. |
+| [`src/visualization/build_executive_presentation.py`](src/visualization/build_executive_presentation.py) | Python Script | Automated builder script compiling data tables, high-resolution figures, and speaker notes into the PowerPoint deck. |
 | [`src/adaptive_kernel.py`](src/adaptive_kernel.py) | Python Module | Standalone PyTorch implementation of Adaptive-Rank Linear Attention with dynamic rank selection ($r \in \{64, 256, 1024\}$). |
 | [`docs/CONSOLIDATED_EXECUTIVE_REPORT.md`](docs/CONSOLIDATED_EXECUTIVE_REPORT.md) | Executive Report | Comprehensive 47KB master executive report covering benchmarks, theoretical bounds, retrieval audits, and roadmap. |
 | [`docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf`](docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf) | Sprint Spec (PDF) | 3-page executive sprint plan for a consolidated 2-person sub-group (Research Lead & Testing Lead), RACI matrix, checkpoints, and T4 guardrails. |

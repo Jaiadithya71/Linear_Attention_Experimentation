@@ -198,9 +198,9 @@ def build_slide_1(prs):
     p2.space_before = Pt(6)
 
     p3 = tf.add_paragraph()
-    p3.text = "Hardware Harness: Dual NVIDIA Tesla T4 GPUs  |  PyTorch 2.11 / Float32  |  Production Validation: Qwen2.5-0.5B"
+    p3.text = "Hardware Harness: Dual Tesla T4 GPUs | PyTorch 2.11 / Float32 | 1-Click Live Replication: notebooks/run_live_t4_benchmark.ipynb"
     p3.font.name = "Segoe UI"
-    p3.font.size = Pt(10.5)
+    p3.font.size = Pt(10.0)
     p3.font.color.rgb = SLATE_400
     p3.space_before = Pt(12)
 
@@ -633,6 +633,15 @@ def build_slide_4(prs):
     
     fig_path = resolve_figure_path("fig1_efficiency_scaling_curves.png")
     slide.shapes.add_picture(fig_path, Inches(0.9), Inches(2.92), Inches(11.533), Inches(4.15))
+
+    foot = slide.shapes.add_textbox(Inches(0.8), Inches(7.20), Inches(11.733), Inches(0.22))
+    ftf = foot.text_frame
+    ftf.margin_left = ftf.margin_top = ftf.margin_right = ftf.margin_bottom = 0
+    fp = ftf.paragraphs[0]
+    fp.text = "* Note: Curves reflect reference Colab T4 distributions. For 100% live measured hardware replication, execute notebooks/run_live_t4_benchmark.ipynb."
+    fp.font.name = "Segoe UI"
+    fp.font.size = Pt(7.5)
+    fp.font.color.rgb = SLATE_500
 
     set_speaker_notes(slide, """
 Slide 4 details our empirical hardware efficiency benchmark, led by Person 2 on dual NVIDIA Tesla T4 GPUs across sequence lengths from 64 tokens all the way up to 65,536 tokens.
