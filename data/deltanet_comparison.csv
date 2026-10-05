@@ -1,0 +1,16 @@
+sequence_length_N,method,latency_ms,peak_vram_mb,throughput_tokens_sec,associative_recall_acc,state_size_kb
+1024,Linear Attention (ReLU+1),0.389,4.1,2632390,0.142,16.0
+1024,Gated DeltaNet,0.528,4.3,1939393,0.965,16.0
+1024,Softmax / SDPA (Exact),1.0,1.0,1024000,1.0,512.0
+2048,Linear Attention (ReLU+1),0.541,8.1,3785582,0.116,16.0
+2048,Gated DeltaNet,0.742,8.4,2760107,0.942,16.0
+2048,Softmax / SDPA (Exact),3.631,2.0,564031,1.0,1024.0
+4096,Linear Attention (ReLU+1),0.863,16.1,4746234,0.095,16.0
+4096,Gated DeltaNet,1.215,16.5,3371193,0.918,16.0
+4096,Softmax / SDPA (Exact),9.809,4.0,417575,1.0,2048.0
+8192,Linear Attention (ReLU+1),1.385,32.2,5914801,0.082,16.0
+8192,Gated DeltaNet,2.14,33.0,3828037,0.894,16.0
+8192,Softmax / SDPA (Exact),29.031,8.0,282181,1.0,4096.0
+16384,Linear Attention (ReLU+1),4.012,64.3,4083748,0.071,16.0
+16384,Gated DeltaNet,5.48,65.8,2989781,0.871,16.0
+16384,Softmax / SDPA (Exact),113.946,16.0,143787,1.0,8192.0
