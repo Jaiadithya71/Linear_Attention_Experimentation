@@ -59,7 +59,7 @@ Linear_Attention_Experimentation/
 ├── notebooks/
 │   └── Linear_Attention_Colab_Benchmark.ipynb                  # Tesla T4 PyTorch benchmarks (N=64..65K)
 ├── presentation/
-│   └── Team3_Attention_Results.pptx                            # 7-slide departmental presentation deck
+│   └── Team3_Linear_Attention_Executive_Summary.pptx                            # 7-slide departmental presentation deck
 ├── .gitignore
 └── README.md
 ```
@@ -81,7 +81,6 @@ Linear_Attention_Experimentation/
 | [`docs/Mathematically_Correct_Linear_Attention_Hypothesis.docx`](docs/Mathematically_Correct_Linear_Attention_Hypothesis.docx) | Theoretical Framework | Error-Controlled Adaptive-Rank Linear Attention mathematical formulation, error bounds ($B_{X, r} \le \delta$), and associative state accumulation. |
 | [`docs/Team_3_Linear_Attention_PDCA_Workbook.docx`](docs/Team_3_Linear_Attention_PDCA_Workbook.docx) | Research Workbook | Team 3 Plan-Do-Check-Act (PDCA) experimental protocol, worked examples, controls, and acceptance criteria. |
 | [`notebooks/Linear_Attention_Colab_Benchmark.ipynb`](notebooks/Linear_Attention_Colab_Benchmark.ipynb) | Jupyter Notebook | Complete Colab/Kaggle benchmark notebook containing timing harness, memory tracking, scaling slopes, FAVOR+ sweeps, and retrieval evaluations. |
-| [`presentation/Team3_Attention_Results.pptx`](presentation/Team3_Attention_Results.pptx) | Slide Deck | 7-slide departmental presentation deck summarizing latency curves, memory footprints, retrieval failure points, and architectural conclusions. |
 
 *(Note: Duplicate/superseded initial proposal draft `Linear_Attention_Research_Team_3.docx` and raw WhatsApp download files have been omitted to maintain a clean, non-redundant repository).*
 

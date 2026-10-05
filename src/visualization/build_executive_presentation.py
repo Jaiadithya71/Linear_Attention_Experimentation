@@ -1195,20 +1195,10 @@ def main():
     print("Building Slide 9: Strategic Roadmap & Decision Matrix...")
     build_slide_9(prs)
     
-    # Save destinations relative to script or repo
-    dest_paths = [
-        "Linear_Attention_Experimentation/presentation/Team3_Linear_Attention_Executive_Summary.pptx",
-        "Linear_Attention_Experimentation/presentation/Team3_Attention_Results.pptx",
-        "presentation/Team3_Linear_Attention_Executive_Summary.pptx"
-    ]
-    
-    # Also handle if current working dir is Linear_Attention_Experimentation
-    if os.path.basename(os.getcwd()) == "Linear_Attention_Experimentation":
-        dest_paths = [
-            "presentation/Team3_Linear_Attention_Executive_Summary.pptx",
-            "presentation/Team3_Attention_Results.pptx"
-        ]
-    
+    # Use one canonical destination regardless of the current working directory.
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    dest_paths = [os.path.join(repo_root, "presentation", "Team3_Linear_Attention_Executive_Summary.pptx")]
+
     for path in dest_paths:
         os.makedirs(os.path.dirname(path), exist_ok=True)
         prs.save(path)

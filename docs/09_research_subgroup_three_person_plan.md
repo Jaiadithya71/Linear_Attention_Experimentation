@@ -77,7 +77,7 @@ The Research workstream is partitioned into three specialized, mutually supporti
   1. **Transformers Monkey-Patching:** Author `patch_qwen.py` to intercept and replace `Qwen2Attention` forward blocks with `adaptive_rank_attention`.
   2. **Model Footprint & Stability Verification:** Test forward pass on `Qwen/Qwen2.5-0.5B` under FP16 on Kaggle T4, ensuring peak VRAM stays well within the 16GB budget ($< 1.5\text{ GB}$ baseline model footprint).
   3. **Prefill & Generation Latency:** Measure prompt prefill latency across sequence lengths $N \in \{1\text{K}, 2\text{K}, 4\text{K}, 8\text{K}\}$ comparing standard SDPA vs patched adaptive attention.
-  4. **Deck Assembly & Reporting:** Manage the master 7-slide presentation deck (`Team3_Attention_Results.pptx`), ingest charts from the Testing Team, and compile the final executive PDF summary.
+  4. **Deck Assembly & Reporting:** Manage the master 7-slide presentation deck (`Team3_Linear_Attention_Executive_Summary.pptx`), ingest charts from the Testing Team, and compile the final executive PDF summary.
 * **Primary Deliverables:**
   - `patch_qwen.py` (Monkey-patch module & forward verification harness)
   - `qwen_benchmark_results.csv` (Patched prefill latency logs)
