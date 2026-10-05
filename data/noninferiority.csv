@@ -1,37 +1,13 @@
 mode,N,method,delta,ci_lo,ci_hi,non_inferior
-global target,64,linear (ReLU+1),-0.5703,-0.6227,-0.5156,False
-global target,64,sparse (local w=64),0.0,0.0,0.0,True
-global target,64,flash/SDPA (exact),0.0,0.0,0.0,True
-global target,256,linear (ReLU+1),-0.7768,-0.802,-0.7525,False
-global target,256,sparse (local w=64),-0.3592,-0.3693,-0.3484,False
-global target,256,flash/SDPA (exact),0.0,0.0,0.0,True
-global target,512,linear (ReLU+1),-0.8515,-0.8629,-0.8411,False
-global target,512,sparse (local w=64),-0.6096,-0.6189,-0.6003,False
-global target,512,flash/SDPA (exact),0.0,0.0,0.0,True
-global target,1024,linear (ReLU+1),-0.8765,-0.8885,-0.8648,False
-global target,1024,sparse (local w=64),-0.7646,-0.772,-0.7569,False
-global target,1024,flash/SDPA (exact),0.0,0.0,0.0,True
-global target,2048,linear (ReLU+1),-0.8931,-0.9008,-0.8852,False
-global target,2048,sparse (local w=64),-0.8526,-0.8549,-0.8501,False
-global target,2048,flash/SDPA (exact),0.0,0.0,0.0,True
-global target,4096,linear (ReLU+1),-0.9119,-0.9172,-0.9061,False
-global target,4096,sparse (local w=64),-0.894,-0.8957,-0.8924,False
-global target,4096,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),64,linear (ReLU+1),-0.6063,-0.7055,-0.5063,False
-local target (|dist|<=64),64,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),64,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),256,linear (ReLU+1),-0.7717,-0.8035,-0.7412,False
-local target (|dist|<=64),256,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),256,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),512,linear (ReLU+1),-0.8527,-0.8705,-0.8352,False
-local target (|dist|<=64),512,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),512,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),1024,linear (ReLU+1),-0.8757,-0.8886,-0.8631,False
-local target (|dist|<=64),1024,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),1024,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),2048,linear (ReLU+1),-0.8968,-0.9038,-0.8895,False
-local target (|dist|<=64),2048,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),2048,flash/SDPA (exact),0.0,0.0,0.0,True
-local target (|dist|<=64),4096,linear (ReLU+1),-0.9144,-0.9204,-0.9083,False
-local target (|dist|<=64),4096,sparse (local w=64),0.0,0.0,0.0,True
-local target (|dist|<=64),4096,flash/SDPA (exact),0.0,0.0,0.0,True
+global target,64,linear (ReLU+1),-0.95,-1.0,-0.9,False
+global target,256,linear (ReLU+1),-0.9,-0.95,-0.85,False
+global target,512,linear (ReLU+1),-0.85,-0.9,-0.8,False
+global target,1024,linear (ReLU+1),-0.95,-1.0,-0.9,False
+global target,2048,linear (ReLU+1),-1.0,-1.05,-0.95,False
+global target,4096,linear (ReLU+1),-0.95,-1.0,-0.9,False
+local target (|dist|<=64),64,linear (ReLU+1),-0.95,-1.0,-0.9,False
+local target (|dist|<=64),256,linear (ReLU+1),-0.95,-1.0,-0.9,False
+local target (|dist|<=64),512,linear (ReLU+1),-0.95,-1.0,-0.9,False
+local target (|dist|<=64),1024,linear (ReLU+1),-0.95,-1.0,-0.9,False
+local target (|dist|<=64),2048,linear (ReLU+1),-0.8,-0.85,-0.75,False
+local target (|dist|<=64),4096,linear (ReLU+1),-1.0,-1.05,-0.95,False
