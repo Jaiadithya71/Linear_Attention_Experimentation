@@ -23,14 +23,20 @@ Empirical efficiency, output deviation, and key-value retrieval quality analysis
 ```text
 Linear_Attention_Experimentation/
 ├── docs/
-│   ├── Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf
-│   ├── Linear_Attention_Research_Proposal_Revised.docx
-│   ├── Mathematically_Correct_Linear_Attention_Hypothesis.docx
-│   └── Team_3_Linear_Attention_PDCA_Workbook.docx
+│   ├── figures/                                                 # Benchmark scaling & retrieval plots
+│   ├── 00_MASTER_RESEARCH_SYNTHESIS.md                          # Master synthesis across all proposal & results
+│   ├── 08_two_person_execution_plan.md                          # 2-person decoupled sprint specification
+│   ├── 09_engineering_concepts_guide.md                         # Detailed engineering concepts & terminology
+│   ├── Adaptive_Attention_Engineering_Terminology_Guide.pdf    # 5-page publication PDF concepts primer
+│   ├── Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf # 6-person sprint technical spec
+│   ├── Linear_Attention_Research_Proposal_Revised.docx         # Revised research proposal
+│   ├── Mathematically_Correct_Linear_Attention_Hypothesis.docx # Adaptive rank error bound derivations
+│   ├── Team_3_Linear_Attention_PDCA_Workbook.docx              # PDCA research workbook
+│   └── Two_Person_Research_and_Testing_Sprint_Plan.pdf         # 3-page consolidated 2-person sprint PDF
 ├── notebooks/
-│   └── Linear_Attention_Colab_Benchmark.ipynb
+│   └── Linear_Attention_Colab_Benchmark.ipynb                  # Tesla T4 PyTorch benchmarks (N=64..65K)
 ├── presentation/
-│   └── Team3_Attention_Results.pptx
+│   └── Team3_Attention_Results.pptx                            # 7-slide departmental presentation deck
 ├── .gitignore
 └── README.md
 ```
@@ -39,14 +45,19 @@ Linear_Attention_Experimentation/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| [`docs/Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf`](docs/Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf) | Specification | 3-page master project plan, decoupled sprint architecture (contract-first engineering across 6 leads), Kaggle T4 guardrails, and 7-slide layout. |
-| [`docs/Linear_Attention_Research_Proposal_Revised.docx`](docs/Linear_Attention_Research_Proposal_Revised.docx) | Research Proposal | Pre-registered, revised research proposal (*Kernelized Linear Attention vs. Softmax Attention: An Efficiency–Quality Boundary Analysis*), superseding unrevised early drafts. |
+| [`docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf`](docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf) | Sprint Spec (PDF) | 3-page executive sprint plan for a consolidated 2-person sub-group (Research Lead & Testing Lead), RACI matrix, checkpoints, and T4 guardrails. |
+| [`docs/Adaptive_Attention_Engineering_Terminology_Guide.pdf`](docs/Adaptive_Attention_Engineering_Terminology_Guide.pdf) | Primer (PDF) | 5-page guide demystifying systems and AI research terms (Turing SM 7.5, O(N²) walls, associative reordering, DeltaNet, non-inferiority). |
+| [`docs/08_two_person_execution_plan.md`](docs/08_two_person_execution_plan.md) | Sprint Spec (MD) | Detailed contract-first decoupled timeline, mock kernel stub signatures, and hour-by-hour milestones. |
+| [`docs/09_engineering_concepts_guide.md`](docs/09_engineering_concepts_guide.md) | Primer (MD) | Markdown reference providing plain-English explanations and mathematical intuition for all sprint concepts. |
+| [`docs/00_MASTER_RESEARCH_SYNTHESIS.md`](docs/00_MASTER_RESEARCH_SYNTHESIS.md) | Synthesis (MD) | Comprehensive unified synthesis combining research proposals, PDCA workbook, benchmark data, and architecture pivot. |
+| [`docs/Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf`](docs/Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf) | Specification | Original 6-person technical specification and Kaggle free-tier constraints. |
+| [`docs/Linear_Attention_Research_Proposal_Revised.docx`](docs/Linear_Attention_Research_Proposal_Revised.docx) | Research Proposal | Pre-registered, revised research proposal (*Kernelized Linear Attention vs. Softmax Attention: An Efficiency–Quality Boundary Analysis*). |
 | [`docs/Mathematically_Correct_Linear_Attention_Hypothesis.docx`](docs/Mathematically_Correct_Linear_Attention_Hypothesis.docx) | Theoretical Framework | Error-Controlled Adaptive-Rank Linear Attention mathematical formulation, error bounds ($B_{X, r} \le \delta$), and associative state accumulation. |
 | [`docs/Team_3_Linear_Attention_PDCA_Workbook.docx`](docs/Team_3_Linear_Attention_PDCA_Workbook.docx) | Research Workbook | Team 3 Plan-Do-Check-Act (PDCA) experimental protocol, worked examples, controls, and acceptance criteria. |
 | [`notebooks/Linear_Attention_Colab_Benchmark.ipynb`](notebooks/Linear_Attention_Colab_Benchmark.ipynb) | Jupyter Notebook | Complete Colab/Kaggle benchmark notebook containing timing harness, memory tracking, scaling slopes, FAVOR+ sweeps, and retrieval evaluations. |
 | [`presentation/Team3_Attention_Results.pptx`](presentation/Team3_Attention_Results.pptx) | Slide Deck | 7-slide departmental presentation deck summarizing latency curves, memory footprints, retrieval failure points, and architectural conclusions. |
 
-*(Note: Duplicate/superseded initial proposal draft `Linear_Attention_Research_Team_3.docx` has been omitted to maintain a clean, non-redundant repository).*
+*(Note: Duplicate/superseded initial proposal draft `Linear_Attention_Research_Team_3.docx` and raw WhatsApp download files have been omitted to maintain a clean, non-redundant repository).*
 
 ---
 
