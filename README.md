@@ -23,16 +23,20 @@ Empirical efficiency, output deviation, and key-value retrieval quality analysis
 ```text
 Linear_Attention_Experimentation/
 ├── docs/
-│   ├── figures/                                                 # Benchmark scaling & retrieval plots
+│   ├── figures/                                                 # Benchmark scaling & retrieval plots (Figs 1-4)
 │   ├── 00_MASTER_RESEARCH_SYNTHESIS.md                          # Master synthesis across all proposal & results
 │   ├── 08_two_person_execution_plan.md                          # 2-person decoupled sprint specification
 │   ├── 09_engineering_concepts_guide.md                         # Detailed engineering concepts & terminology
 │   ├── Adaptive_Attention_Engineering_Terminology_Guide.pdf    # 5-page publication PDF concepts primer
 │   ├── Adaptive_Attention_Project_Plan_and_Technical_Specification.pdf # 6-person sprint technical spec
+│   ├── CONSOLIDATED_EXECUTIVE_REPORT.md                         # Full empirical findings & executive report
 │   ├── Linear_Attention_Research_Proposal_Revised.docx         # Revised research proposal
 │   ├── Mathematically_Correct_Linear_Attention_Hypothesis.docx # Adaptive rank error bound derivations
+│   ├── Research_SubGroup_Three_Person_Execution_Plan.pdf       # 3-person subgroup execution plan PDF
 │   ├── Team_3_Linear_Attention_PDCA_Workbook.docx              # PDCA research workbook
 │   └── Two_Person_Research_and_Testing_Sprint_Plan.pdf         # 3-page consolidated 2-person sprint PDF
+├── src/
+│   └── adaptive_kernel.py                                      # Dynamic rank selection attention kernel
 ├── notebooks/
 │   └── Linear_Attention_Colab_Benchmark.ipynb                  # Tesla T4 PyTorch benchmarks (N=64..65K)
 ├── presentation/
@@ -45,7 +49,10 @@ Linear_Attention_Experimentation/
 
 | File | Type | Description |
 | :--- | :--- | :--- |
+| [`src/adaptive_kernel.py`](src/adaptive_kernel.py) | Python Module | Standalone PyTorch implementation of Adaptive-Rank Linear Attention with dynamic rank selection ($r \in \{64, 256, 1024\}$). |
+| [`docs/CONSOLIDATED_EXECUTIVE_REPORT.md`](docs/CONSOLIDATED_EXECUTIVE_REPORT.md) | Executive Report | Comprehensive 47KB master executive report covering benchmarks, theoretical bounds, retrieval audits, and roadmap. |
 | [`docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf`](docs/Two_Person_Research_and_Testing_Sprint_Plan.pdf) | Sprint Spec (PDF) | 3-page executive sprint plan for a consolidated 2-person sub-group (Research Lead & Testing Lead), RACI matrix, checkpoints, and T4 guardrails. |
+| [`docs/Research_SubGroup_Three_Person_Execution_Plan.pdf`](docs/Research_SubGroup_Three_Person_Execution_Plan.pdf) | Subgroup Plan (PDF) | 3-person research subgroup execution plan and milestone partition. |
 | [`docs/Adaptive_Attention_Engineering_Terminology_Guide.pdf`](docs/Adaptive_Attention_Engineering_Terminology_Guide.pdf) | Primer (PDF) | 5-page guide demystifying systems and AI research terms (Turing SM 7.5, O(N²) walls, associative reordering, DeltaNet, non-inferiority). |
 | [`docs/08_two_person_execution_plan.md`](docs/08_two_person_execution_plan.md) | Sprint Spec (MD) | Detailed contract-first decoupled timeline, mock kernel stub signatures, and hour-by-hour milestones. |
 | [`docs/09_engineering_concepts_guide.md`](docs/09_engineering_concepts_guide.md) | Primer (MD) | Markdown reference providing plain-English explanations and mathematical intuition for all sprint concepts. |
