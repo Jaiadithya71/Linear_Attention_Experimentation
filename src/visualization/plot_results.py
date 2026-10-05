@@ -440,19 +440,24 @@ def plot_fig4_sota_deltanet_comparison(deltanet_df: pd.DataFrame, output_path: P
         ax1.plot(sub['sequence_length_N'], sub['associative_recall_acc'] * 100.0,
                  marker=marker, color=color, label=lbl, linewidth=2.4, markersize=8)
     
-    # Annotate DeltaNet breakthrough
-    ax1.annotate('Gated DeltaNet: 96.5% Recall at N=1024\n(Preserves memory via delta rule S = S(I - β kkᵀ) + β vkᵀ)',
-                 xy=(1024, 96.5), xytext=(1200, 75),
-                 arrowprops=dict(facecolor='#6a3d9a', arrowstyle='->', lw=1.6),
-                 fontsize=9.2, fontweight='bold', color='#491e70',
-                 bbox=dict(boxstyle='round,pad=0.3', facecolor='#f2e6ff', edgecolor='#6a3d9a', alpha=0.95))
+    # Dynamic annotation from df
+    sub_delta = df[df['method'].str.contains('DeltaNet', case=False, na=False)]
+    sub_lin = df[df['method'].str.contains('Linear', case=False, na=False)]
+    if not sub_delta.empty and 1024 in sub_delta['sequence_length_N'].values:
+        acc_d = sub_delta[sub_delta['sequence_length_N'] == 1024]['associative_recall_acc'].values[0] * 100.0
+        ax1.annotate(f'Gated DeltaNet: {acc_d:.1f}% Recall at N=1024\n(Delta rule S = S(I - β kkᵀ) + β vkᵀ)',
+                     xy=(1024, acc_d), xytext=(1200, max(15, acc_d - 20)),
+                     arrowprops=dict(facecolor='#6a3d9a', arrowstyle='->', lw=1.6),
+                     fontsize=9.2, fontweight='bold', color='#491e70',
+                     bbox=dict(boxstyle='round,pad=0.3', facecolor='#f2e6ff', edgecolor='#6a3d9a', alpha=0.95))
     
-    # Annotate Linear Attention collapse
-    ax1.annotate('Linear Attention Collapses\nto 14.2% at N=1024 (7.1% at 16k)',
-                 xy=(1024, 14.2), xytext=(1500, 28),
-                 arrowprops=dict(facecolor='#e31a1c', arrowstyle='->', lw=1.6),
-                 fontsize=9.2, fontweight='bold', color='#b30000',
-                 bbox=dict(boxstyle='round,pad=0.3', facecolor='#fee0d2', edgecolor='#e31a1c', alpha=0.95))
+    if not sub_lin.empty and 1024 in sub_lin['sequence_length_N'].values:
+        acc_l = sub_lin[sub_lin['sequence_length_N'] == 1024]['associative_recall_acc'].values[0] * 100.0
+        ax1.annotate(f'Linear Attention Collapses\nto {acc_l:.1f}% at N=1024',
+                     xy=(1024, acc_l), xytext=(1500, acc_l + 15),
+                     arrowprops=dict(facecolor='#e31a1c', arrowstyle='->', lw=1.6),
+                     fontsize=9.2, fontweight='bold', color='#b30000',
+                     bbox=dict(boxstyle='round,pad=0.3', facecolor='#fee0d2', edgecolor='#e31a1c', alpha=0.95))
     
     ax1.set_xscale('log', base=2)
     ax1.set_ylim(-2, 108)

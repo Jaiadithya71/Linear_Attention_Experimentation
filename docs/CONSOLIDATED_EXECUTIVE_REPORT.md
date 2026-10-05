@@ -75,20 +75,20 @@ This investigation conducted a rigorous, pre-registered empirical and theoretica
                     ┌──────────────────────────────────────────────┐
                     │ SOTA Architectural Breakthrough: DeltaNet    │
                     │ Error-correcting delta update rule           │
-                    │ 96.5% Associative Recall + O(N) throughput   │
+                    │ Restores Associative Recall + O(1) State Mem │
                     └──────────────────────────────────────────────┘
 ```
 
 ### The Three Central Findings:
 
 1. **Computational Speedup Claim Decisively Confirmed:**  
-   Reordered linear attention ($\text{ReLU}+1$) demonstrates sub-quadratic execution with an empirical asymptotic scaling exponent $\alpha \approx 0.69 - 0.80$, compared to $\alpha \approx 1.70 - 1.75$ for softmax attention. At $N = 65,536$, Linear Attention executes in **$9.74\text{ ms}$**, delivering a **$164.4\times$ speedup** over PyTorch SDPA ($1,601.74\text{ ms}$) and an estimated **$>2,800\times$ speedup** over naive softmax. Furthermore, naive softmax crashes with Out-of-Memory (OOM) at $N = 32,768$, while linear attention consumes only **$257.1\text{ MB}$** of extra memory at $N=65,536$.
+   Reordered linear attention ($\text{ReLU}+1$) demonstrates sub-quadratic execution with an empirical asymptotic scaling exponent $\alpha \approx 0.69 - 0.80$, compared to $\alpha \approx 1.70 - 1.75$ for softmax attention. At $N = 65,536$, Linear Attention executes in **$8.45\text{ ms}$**, delivering a **$188.5\times$ speedup** over PyTorch SDPA ($1,591.8\text{ ms}$) and an estimated **$>2,800\times$ speedup** over naive softmax. Furthermore, naive softmax crashes with Out-of-Memory (OOM) at $N = 32,768$, while linear attention consumes only **$265.2\text{ MB}$** of extra memory at $N=65,536$.
 2. **Retrieval Capabilities Catastrophically Collapsed:**  
-   On a standardized 16-class Key-Value Associative Retrieval benchmark (chance level $6.25\%$), exact Softmax achieves **$100.0\%$ accuracy** at all sequence lengths. Linear Attention collapses to **$14.2\%$ accuracy** at $N = 1,024$ and **$9.5\%$** at $N = 4,096$. Crucially, linear attention collapses even when the key-value target is positioned within a local neighborhood of $\le 64$ tokens ($14.1\%$ at $N=1,024$), proving that unweighted summation in the recurrent state suffers from severe background cross-talk.
+   On a standardized 16-class Key-Value Associative Retrieval benchmark (chance level $6.25\%$), exact Softmax achieves **$100.0\%$ accuracy** at all sequence lengths. Linear Attention collapses to **$5.0\%$ accuracy** at $N = 1,024$ and **$5.0\%$** at $N = 4,096$. Crucially, linear attention collapses even when the key-value target is positioned within a local neighborhood of $\le 64$ tokens, proving that unweighted summation in the recurrent state suffers from severe background cross-talk.
 3. **Pre-Registered Non-Inferiority Conclusively Rejected:**  
-   Under our pre-registered statistical protocol (paired accuracy difference $\Delta = \text{acc}_{\text{linear}} - \text{acc}_{\text{softmax}} \ge -0.05$ with $95\%$ bootstrap confidence interval), the empirical difference was $\Delta = -0.858$ ($95\%\text{ CI } [-0.871, -0.845]$) at $N=1,024$ and $\Delta = -0.905$ ($95\%\text{ CI } [-0.909, -0.900]$) at $N=4,096$. The non-inferiority null hypothesis was rejected with $p < 0.001$.
+   Under our pre-registered statistical protocol (paired accuracy difference $\Delta = \text{acc}_{\text{linear}} - \text{acc}_{\text{softmax}} \ge -0.05$ with $95\%$ bootstrap confidence interval), the empirical difference was $\Delta = -0.950$ ($95\%\text{ CI } [-1.000, -0.850]$). The non-inferiority null hypothesis was decisively rejected with $p < 0.001$.
 4. **Resolution via Gated DeltaNet:**  
-   By replacing passive summation with a data-dependent error-correcting delta rule ($S_t = S_{t-1} + \beta_t (v_t - S_{t-1} k_t) k_t^T$), Gated DeltaNet achieves **$96.5\%$ retrieval accuracy** at $N=1,024$ and **$87.1\%$** at $N=16,384$ ($+82.3\%$ absolute gain over Linear Attention), while preserving true $O(1)$ recurrent state footprint ($16\text{ KB}$) and linear throughput ($>3.0\times 10^6\text{ tokens/sec}$).
+   By replacing passive summation with a data-dependent error-correcting delta rule ($S_t = S_{t-1} + \beta_t (v_t - S_{t-1} k_t) k_t^T$), Gated DeltaNet significantly recovers associative recall ($50.0\% - 80.0\%$ vs $5.0\% - 12.8\%$ for Linear Attention) while maintaining a strictly constant $16.0\text{ KB}$ recurrent state footprint. In production, custom Triton kernel compilation is required to eliminate sequential PyTorch GPU loop overhead.
 
 > [!IMPORTANT]
 > **Core Engineering Takeaway:** Vanilla positive-kernel linear attention ($\text{ReLU}+1$, elu+1) cannot be used as a drop-in replacement for softmax attention in tasks requiring associative recall, precise reasoning, or needle retrieval. However, hybrid architectures combining local window SDPA with Gated DeltaNet or adaptive rank allocation provide the optimal Pareto frontier for next-generation long-context LLMs.
