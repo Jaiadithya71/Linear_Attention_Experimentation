@@ -13,6 +13,9 @@ import shutil
 import zipfile
 import pandas as pd
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 def find_zip():
     candidates = [
         "verified_results.zip",
@@ -28,9 +31,9 @@ def find_zip():
 def import_results():
     zip_path = find_zip()
     if not zip_path:
-        print("❌ Could not locate 'verified_results.zip' in workspace or Downloads folder.")
-        print("   Please download the zip file from Google Colab and place it in this folder:")
-        print(f"   {os.getcwd()}")
+        print("[!] Could not locate 'verified_results.zip' in workspace or Downloads folder.")
+        print("    Please download the zip file from Google Colab and place it in this folder:")
+        print(f"    {os.getcwd()}")
         return False
 
     print("=" * 75)
@@ -43,10 +46,10 @@ def import_results():
 
     with zipfile.ZipFile(zip_path, 'r') as zf:
         zf.extractall(root_dir)
-        print(f"✅ Extracted deliverables to: {root_dir}")
+        print(f"[OK] Extracted deliverables to: {root_dir}")
         if os.path.exists(repo_dir):
             zf.extractall(repo_dir)
-            print(f"✅ Extracted deliverables to: {repo_dir}")
+            print(f"[OK] Extracted deliverables to: {repo_dir}")
 
     # Integrity verification
     print("\nAUDITING EXTRACTED DELIVERABLES:")
@@ -69,11 +72,11 @@ def import_results():
         if os.path.exists(full):
             print(f"  [OK]   {rel:<55} ({os.path.getsize(full):,} bytes)")
         else:
-            print(f"  [FAIL] {rel:<55} MISSING ❌")
+            print(f"  [FAIL] {rel:<55} MISSING [X]")
             all_ok = False
 
     if all_ok:
-        print("\n🎉 ALL 10 EMPIRICAL DELIVERABLES SUCCESSFULLY IMPORTED AND VERIFIED!")
+        print("\n[SUCCESS] ALL 10 EMPIRICAL DELIVERABLES SUCCESSFULLY IMPORTED AND VERIFIED!")
         # Print a quick preview of Qwen and Efficiency
         qwen_csv = os.path.join(root_dir, "data/qwen_prefill_results.csv")
         if os.path.exists(qwen_csv):
